@@ -17,9 +17,9 @@ services:
         networks:
             - nginx-proxy
             - net-front-luxor
-    luxor:
+    japi:
         build: app/.
-        container_name: luxor
+        container_name: japi
         restart: always
         command:
             "npm run start"
