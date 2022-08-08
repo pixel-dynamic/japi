@@ -27,7 +27,7 @@ services:
             - net-front-japi
 
 networks:
-     net-front-luxor:
+     net-front-japi:
      nginx-proxy:
         external:
             name: ubuntu_nginx-proxy
