@@ -7,7 +7,7 @@
         <b-row class="justify-content-center">
           <b-col sm="10" md="8" class="text-white text-center">
             <h1 class="title mt-5 mb-3">
-              ¿Estás listo para recibir tu oferta?
+              ¿Estás listo para recibir tu oferta - new?
             </h1>
             <p>
               Da clic en el botón y responde el formulario. <br />
