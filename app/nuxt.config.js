@@ -1,0 +1,155 @@
+export default {
+  // Global page headers: https://go.nuxtjs.dev/config-head
+  head: {
+    title: 'Prestamagico',
+    meta: [
+      { charset: 'utf-8' },
+      { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge' },
+      {
+        'http-equiv': 'Content-Security-Policy',
+        content:
+          "default-src *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; style-src  'self' 'unsafe-inline' *; img-src 'self' data: *",
+      },
+      {
+        name: 'description',
+        content:
+          'Plataforma digital para encontrar la mejor reparadora de crédito en México.',
+      },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content: 'Prestamagico',
+      },
+      { hid: 'og:image', name: 'og:image', content: '/icons/512.png' },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content:
+          'Plataforma digital para encontrar la mejor reparadora de crédito en México.',
+      },
+      { hid: 'og:site_name', name: 'og:site_name', content: 'Prestamagico' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: '' },
+      { name: 'apple-mobile-web-app-capable', content: 'yes' },
+      { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
+      { name: 'apple-mobile-web-app-title', content: 'Prestamagico' },
+      { name: 'theme-color', content: '#4DBA87' },
+      { name: 'msapplication-TileImage', content: '/icons/256.png' },
+      { name: 'msapplication-TileColor', content: '#000000' },
+    ],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    // script: [
+    //   {
+    //     src: 'https://cdn.onesignal.com/sdks/OneSignalSDK.js',
+    //     async: '',
+    //   },
+    //   {
+    //     type: 'text/javascript',
+    //     innerHTML: `window.OneSignal = window.OneSignal || [];
+    //     OneSignal.push(function() {
+    //       OneSignal.init({
+    //         appId: "de4b6a5a-6f60-43eb-91de-340e8ac2c208",
+    //       });
+    //     });`,
+    //   },
+    // ],
+    __dangerouslyDisableSanitizers: ['script'],
+  },
+
+  // Global CSS: https://go.nuxtjs.dev/config-css
+  css: ['@/assets/css/main.css'],
+
+  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
+  plugins: [
+    { src: '~/plugins/vue-money.js', mode: 'client' },
+    { src: '~/plugins/vue-mask.js', mode: 'client' },
+    { src: '~/plugins/vue-slick.js', mode: 'client' },
+  ],
+
+  // Auto import components: https://go.nuxtjs.dev/config-components
+  components: true,
+
+  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
+  buildModules: [
+    // https://go.nuxtjs.dev/eslint
+    '@nuxtjs/eslint-module',
+  ],
+
+  // Modules: https://go.nuxtjs.dev/config-modules
+  modules: [
+    // https://go.nuxtjs.dev/bootstrap
+    'bootstrap-vue/nuxt',
+    // https://go.nuxtjs.dev/pwa
+    '@nuxtjs/pwa',
+    'nuxt-sweetalert2',
+    'nuxt-facebook-pixel-module',
+    '@nuxtjs/axios',
+  ],
+
+  axios: {
+    // proxy: true
+    headers: {
+      common: {
+        Accept: 'application/json, text/plain, */*',
+        'access-control-allow-origin': '*',
+      },
+    },
+  },
+
+  facebook: {
+    /* module options */
+    track: 'PageView',
+    pixelId: '462126537709624',
+    autoPageView: true,
+    disabled: false,
+  },
+
+  // PWA module configuration: https://go.nuxtjs.dev/pwa
+  pwa: {
+    manifest: {
+      lang: 'en',
+    },
+  },
+
+  bootstrapVue: {
+    components: [
+      'BIcon',
+      'BIconArrowBarRight',
+      'BIconLightning',
+      'BIconPatchCheck',
+      'BIconPersonCheck',
+      'BIconCashStack',
+      'BIconCardChecklist',
+      'BIconFileEarmarkBarGraph',
+      'BIconFileEarmarkArrowUp',
+      'BIconFileEarmarkPerson',
+      'BIconPencil',
+      'BIconFilterCircle',
+      'BIconFacebook',
+    ],
+    componentPlugins: [
+      'LayoutPlugin',
+      'ButtonPlugin',
+      'NavbarPlugin',
+      'OverlayPlugin',
+      'NavPlugin',
+      'FormPlugin',
+      'FormGroupPlugin',
+      'FormInputPlugin',
+      'ModalPlugin',
+      'CardPlugin',
+      'SpinnerPlugin',
+      'SidebarPlugin',
+      'LinkPlugin',
+      'CollapsePlugin',
+      'FormSelectPlugin',
+      'FormCheckboxPlugin',
+      'BadgePlugin',
+    ],
+  },
+
+  // Build Configuration: https://go.nuxtjs.dev/config-build
+  build: {
+    babel: { compact: true },
+  },
+}
