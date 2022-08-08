@@ -8,9 +8,9 @@ services:
             context: ./
             dockerfile: ./nginx/Dockerfile
         environment:
-            - VIRTUAL_HOST=academic.com.mx
-            - LETSENCRYPT_HOST=academic.com.mx
-            - LETSENCRYPT_EMAIL=vescalante@lumbrera.com.mx
+            - VIRTUAL_HOST=japiapp.com.mx
+            - LETSENCRYPT_HOST=japiapp.com.mx
+            - LETSENCRYPT_EMAIL=victorlt.xd3@gmail.com
         expose:
             - "80"
             - "443"
