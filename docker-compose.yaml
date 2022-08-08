@@ -1,7 +1,7 @@
 version: '3'
 services:
     nginx:
-        container_name: luxor-nginx
+        container_name: japi-nginx
         image: nginx:v1.0.0
         restart: always
         build:
@@ -16,7 +16,7 @@ services:
             - "443"
         networks:
             - nginx-proxy
-            - net-front-luxor
+            - net-front-japi
     japi:
         build: app/.
         container_name: japi
@@ -24,7 +24,7 @@ services:
         command:
             "npm run start"
         networks:
-            - net-front-luxor
+            - net-front-japi
 
 networks:
      net-front-luxor:
