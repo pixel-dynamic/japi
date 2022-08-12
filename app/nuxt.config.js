@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Prestamagico',
+    title: 'Japi',
     meta: [
       { charset: 'utf-8' },
       { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge' },
@@ -18,7 +18,7 @@ export default {
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'Prestamagico',
+        content: 'Japi',
       },
       { hid: 'og:image', name: 'og:image', content: '/icons/512.png' },
       {
@@ -27,12 +27,12 @@ export default {
         content:
           'Plataforma digital para encontrar la mejor reparadora de crédito en México.',
       },
-      { hid: 'og:site_name', name: 'og:site_name', content: 'Prestamagico' },
+      { hid: 'og:site_name', name: 'og:site_name', content: 'Japi' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'apple-mobile-web-app-capable', content: 'yes' },
       { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
-      { name: 'apple-mobile-web-app-title', content: 'Prestamagico' },
+      { name: 'apple-mobile-web-app-title', content: 'Japi' },
       { name: 'theme-color', content: '#4DBA87' },
       { name: 'msapplication-TileImage', content: '/icons/256.png' },
       { name: 'msapplication-TileColor', content: '#000000' },
@@ -99,7 +99,7 @@ export default {
   facebook: {
     /* module options */
     track: 'PageView',
-    pixelId: '462126537709624',
+    pixelId: '900659661337008',
     autoPageView: true,
     disabled: false,
   },

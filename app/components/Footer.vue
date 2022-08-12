@@ -16,7 +16,7 @@
       <b-row>
         <b-col>
           <p class="small text-center mt-4">
-            <span class="font-weight-bold">2021 © Prestamágico.com</span> -
+            <span class="font-weight-bold">2022 © japiapp.com.mx</span> -
             Todos los derechos reservados. Al usar este sitio, aceptas nuestra
             política de privacidad, así como nuestros términos y condiciones.
           </p>

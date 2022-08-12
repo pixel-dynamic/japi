@@ -5,7 +5,7 @@
         <img
           width="240"
           src="../../assets/img/prestamagico.png"
-          alt="Prestamagico"
+          alt="JAPI"
         />
       </b-navbar-brand>
     </b-navbar> -->
@@ -382,7 +382,7 @@ export default {
   },
   head() {
     return {
-      title: 'Prestamagico - Oferta',
+      title: 'JAPI - Oferta',
       'Timing-Allow-Origin': '*',
       meta: [
         {
@@ -392,7 +392,7 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: 'Prestamagico - Oferta',
+          content: 'JAPI - Oferta',
         },
         { hid: 'og:image', name: 'og:image', content: '/prestamagico.png' },
         {
@@ -400,7 +400,7 @@ export default {
           name: 'og:description',
           content: '¡Obtén desde $1,000 a $18,000 de manera inmediata!',
         },
-        { hid: 'og:site_name', name: 'og:site_name', content: 'Prestamagico' },
+        { hid: 'og:site_name', name: 'og:site_name', content: 'JAPPI' },
       ],
     }
   },

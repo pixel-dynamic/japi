@@ -1,7 +1,7 @@
 <template>
   <div :class="['w-100', 'topbar', { dark }]">
     <b-link to="/">
-      <h3 class="text-white">Prestamagico</h3>
+      <h3 class="text-white">JAPIAPP</h3>
     </b-link>
   </div>
 </template>

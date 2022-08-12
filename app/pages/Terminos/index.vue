@@ -7,7 +7,7 @@
           <b-card class="px-3 px-md-5 py-4 small">
             <p class="font-weight-bold">FECHA DE EMISIÓN: 04/2021</p>
             <p>
-              Para el uso de prestamagico.com - mediante la navegación a través
+              Para el uso de japiapp.com.mx - mediante la navegación a través
               de esta página web, usted acepta los términos y condiciones
               generales (los "Términos y Condiciones Generales") aplicables al
               uso de nuestra página web. Nos reservamos el derecho, a nuestra
@@ -19,13 +19,13 @@
               usuario debe leer, entender y aceptar todas las condiciones
               establecidas en los Términos y Condiciones Generales y en el Aviso
               de Privacidad, así como cualquier otro documento, previo a su
-              inscripción como usuario de prestamagico.com
+              inscripción como usuario de japiapp.com.mx
             </p>
             <p>Nuestros Servicios</p>
             <p>
-              prestamagico.com no es un prestamista, es un servicio gratuito que
+              Japiapp.com.mx no es un prestamista, es un servicio gratuito que
               empareja a los consumidores con los potenciales prestamistas
-              participantes en nuestra red directa de prestamagico.com
+              participantes en nuestra red directa de japiapp.com.mx
               ("prestamistas participantes"). Para utilizar este servicio, debe
               completar una o más solicitudes en línea que le solicitarán
               información específica sobre usted, incluyendo, aunque no está
@@ -38,7 +38,7 @@
               privacidad que se incorporan aquí por referencia.
             </p>
             <p>
-              prestamagico.com proporciona una conexión entre las personas que
+              Japiapp.com.mx proporciona una conexión entre las personas que
               buscan préstamos de pago a corto plazo y los distintos proveedores
               en línea que ofrecen estos préstamos a corto plazo. Los préstamos
               de pago a corto plazo están diseñados con el propósito de
@@ -49,14 +49,14 @@
 
             <p>
               Una vez el consumidor envíe el formulario (s) de solicitud a
-              prestamagico.com, prestamagico.com enviará su información a uno o
+              japiapp.com.mx, japiapp.com.mx enviará su información a uno o
               varios prestamistas participantes . Al enviar el formulario (s) de
               solicitud, usted entiende y acepta que está enviando una consulta
-              sobre un producto de préstamo a prestamagico.com y a cada uno de
-              los prestamistas participantes a quienes prestamagico.com
+              sobre un producto de préstamo a japiapp.com.mx y a cada uno de
+              los prestamistas participantes a quienes japiapp.com.mx
               transmite su solicitud de préstamo. Al enviar el formulario ( s )
               de solicitud, está enviando una invitación expresa a
-              prestamagico.com y a cada uno de los prestamistas participantes
+              japiapp.com.mxy a cada uno de los prestamistas participantes
               que compartirán su información con usted por cualquier medio
               (incluyendo correo electrónico, teléfono y correo directo) para
               que le puedan ayudar con su transacción o proporcionar información
@@ -65,9 +65,9 @@
               ser eliminado de la lista de correo mediante el mecanismo de
               opt-out que aparece en los mensajes de correo electrónico
               recibidos. Para darse de baja de promociones enviadas por correo
-              electrónico desde prestamagico.com, envíe una solicitud a Pixel
-              Dynamic: Guadalupe 120, Ex-Hacienda Coapa, Delegación Tlalpan C.P.
-              14300
+              electrónico desde japiapp.com.mx, envíe una solicitud a JAPI: Presidente Masaryk 61.
+Chapultepec V sección.
+Polanco CDMX 11500
             </p>
 
             <p>
@@ -86,38 +86,38 @@
             <p>
               Si un prestamista participante determina que su solicitud cumple
               con sus criterios de calificación de crédito, la página web
-              prestamagico.com abrirá una nueva página web que identifica el
+              japiapp.com.mx abrirá una nueva página web que identifica el
               nombre (s) y la información del prestamista (s) de contacto, o
               redirigirá el navegador a la página web del prestamista. Usted
               entiende y acepta que, una vez haya sido redirigido a la página
-              web de la entidad crediticia, prestamagico.com no tiene más
+              web de la entidad crediticia, japiapp.com.mx no tiene más
               participación en la solicitud de préstamo o proceso de aprobación.
               Sus interacciones subsecuentes con el prestamista están sujetas a
               la política de privacidad, condiciones de uso, y otras políticas y
               / o términos impuestos por ese prestamista.
             </p>
             <p>
-              prestamagico.com no es un prestamista y no hace préstamos ni toma
+              Japiapp.com.mx no es un prestamista y no hace préstamos ni toma
               decisiones de crédito en relación con su servicio de búsqueda de
-              préstamo. prestamagico.com no garantiza la aceptación en un
+              préstamo. japiapp.com.mx no garantiza la aceptación en un
               programa de préstamo en particular ni establece las condiciones de
               los préstamos específicos con cualquier prestamista participante.
-              prestamagico.com tampoco garantiza que el precio, los productos,
+              japiapp.com.mx tampoco garantiza que el precio, los productos,
               disponibilidad, tarifas, tasas u otros términos de préstamos
               ofrecidos y puestos a disposición por los prestamistas
               participantes, sean las mejores condiciones disponibles en el
               mercado.
             </p>
             <p>
-              prestamagico.com no avala ni recomienda los productos de cualquier
-              prestamista particular. prestamagico.com es un agente suyo o de
-              cualquier prestamista participante. prestamagico.com no está
+              Japiapp.com.mx no avala ni recomienda los productos de cualquier
+              prestamista particular. japiapp.com.mx es un agente suyo o de
+              cualquier prestamista participante. japiapp.com.mx no está
               involucrado con el uso de la entidad crediticia y / o revisión de
               la información de su solicitud para tomar una determinación acerca
               de si usted cumple o no con los criterios de calificación del
               préstamo, de un prestamista particular. El prestamista es el único
               responsable de sus servicios hacia usted y usted acepta que
-              prestamagico.com no será responsable de los daños o gastos de
+              japiapp.com.mx no será responsable de los daños o gastos de
               cualquier tipo que surjan relacionados de alguna manera mediante
               su uso del servicio de búsqueda de préstamo. Entiende que los
               prestamistas participantes podrán mantener la información de su
@@ -137,7 +137,7 @@
               "Derecho de uso limitado" a continuación, está estrictamente
               prohibido. Usted no adquiere derechos de propiedad sobre cualquier
               contenido, documento u otros materiales vistos a través de la
-              página. La publicación por prestamagico.com de información o
+              página. La publicación por japiapp.com.mx de información o
               materiales en la página no constituye una renuncia a cualquier
               derecho sobre dicha información y materiales.
             </p>
@@ -146,11 +146,8 @@
               Derecho de autor y marca de servicio de información:
             </p>
             <p>
-              Derechos de autor © Pixel Dynamic 2018, todos los derechos
-              reservados. “prestamagico.com” y los logotipos asociados son
-              marcas de servicio de prestamagico.com y están protegidos en
-              Estados Unidos, Reino Unido, España y México. Todas las demás
-              marcas son propiedad de sus respectivos dueños.
+              Derechos de autor © JAPI 2022, todos los derechos
+              reservados. 
             </p>
 
             <p class="font-weight-bold">Derecho de uso limitado:</p>
@@ -180,7 +177,7 @@
 
             <p class="font-weight-bold">Indemnización:</p>
             <p>
-              Usted acepta eximir a prestamagico.com y sus respectivos
+              Usted acepta eximir a japiapp.com.mx.com y sus respectivos
               directores, funcionarios, accionistas, empleados, agentes,
               abogados, anunciantes y editores (en conjunto, "Nuestras Partes
               Afiliadas") de cualquier responsabilidad, pérdida, reclamación o
@@ -201,7 +198,7 @@
               DISPONIBLES A TRAVÉS DE LA PÁGINA SE PROPORCIONAN "TAL CUAL",
               "SEGÚN DISPONIBILIDAD", Y TODAS LAS GARANTÍAS, EXPRESAS O
               IMPLÍCITAS, SON RECHAZADAS. EN LA MEDIDA DE LO PERMITIDO POR LA
-              LEY APLICABLE, prestamagico.com RECHAZA TODA GARANTÍA EXPRESA O
+              LEY APLICABLE, japiapp.com.mx.com RECHAZA TODA GARANTÍA EXPRESA O
               IMPLÍCITA, INCLUYENDO, PERO NO LIMITÁNDOSE A, (A) QUE NINGÚN
               PROGRAMA INFORMÁTICO O LA INFORMACIÓN DISPONIBLE EN, O A TRAVÉS DE
               ESTA PÁGINA, O LA PÁGINA MISMA SEA COMERCIAL O ADECUADO PARA UN
@@ -258,15 +255,15 @@
               enlaces a páginas web de terceros que contengan dicha información,
               que se esté proporcionando a conveniencia de los visitantes de la
               página. A pesar de que toda la información preparada por
-              prestamagico.com se cree exacta a partir de la fecha de
+              japiapp.com.mx.com se cree exacta a partir de la fecha de
               preparación, negamos cualquier derecho u obligación de actualizar
               cualquier información. No se debe confiar en que declaraciones
-              referentes a empresas distintas de prestamagico.com que estén
+              referentes a empresas distintas de japiapp.com.mx.com que estén
               contenidas en dicha información fueran facilitadas o endosadas por
               nosotros. Las opiniones expresadas en cualquier información,
-              incluyendo los empleados y agentes de prestamagico.com, son
+              incluyendo los empleados y agentes de japiapp.com.mx.com, son
               exclusivamente las del autor y no reflejan necesariamente el
-              parecer de prestamagico.com. Con respecto a la información que
+              parecer de japiapp.com.mx.com. Con respecto a la información que
               figura en los enlaces a páginas web de terceros, por favor
               consulte la sección "Enlaces a otras páginas web" arriba.
             </p>
@@ -280,7 +277,7 @@
             </p>
             <ul>
               <li>
-                i. Usted manifiesta y garantiza que el uso de prestamagico.com
+                i. Usted manifiesta y garantiza que el uso de japiapp.com.mx.com
                 es bajo su responsabilidad y no contraviene ningún acuerdo, no
                 viola ninguna ley, o infringe los derechos de algún tercero
               </li>
@@ -289,37 +286,37 @@
                 para aceptar este acuerdo
               </li>
               <li>
-                iii. Usted acepta que prestamagico.com es libre de utilizar de
+                iii. Usted acepta que japiapp.com.mx.com es libre de utilizar de
                 cualquier forma la totalidad o parte de los contenidos de
                 cualquier comunicación sin restricciones y sin la obligación de
                 notificárselo, identificar o compensárselo de cualquier otra
                 forma;
               </li>
               <li>
-                iv. Usted concede a prestamagico.com todos los derechos
+                iv. Usted concede a japiapp.com.mx.com todos los derechos
                 necesarios, incluyendo la renuncia a toda la privacidad y los
                 derechos morales, a utilizar todos los comentarios,
                 retroalimentación, información o material, en su totalidad o en
                 parte, o como una obra derivada, sin ninguna obligación por
-                parte prestamagico.com a cualquiera que sea. No aceptamos ideas
+                parte japiapp.com.mx.com a cualquiera que sea. No aceptamos ideas
                 no solicitadas, obras u otros materiales y usted reconoce que
                 usted es responsable de asumir todos los riesgos relativos a la
                 utilización o distribución de dichas ideas, obras o materiales.
               </li>
               <li>
-                iv. prestamagico.com prohíbe expresamente la localización de las
+                iv. japiapp.com.mx.com prohíbe expresamente la localización de las
                 direcciones de correo electrónico desde cualquier página web
                 (incluyendo todas las áreas de esta página - miembros y no
                 miembros) y opta expresamente por no recibir mensajes de correo
                 electrónico comerciales dirigidos a direcciones de correo
-                electrónico de prestamagico.com con dominio en México que se
+                electrónico de japiapp.com.mx.com con dominio en México que se
                 hayan obtenido en violación de lo anterior, o mediante el uso de
                 software automático de generación de direcciones.
               </li>
             </ul>
             <p>Cookies:</p>
             <p>
-              prestamagico.com hace uso de cookies. Las cookies son archivos que
+              Japiapp.com.mx.com hace uso de cookies. Las cookies son archivos que
               identifican en nuestro servidor a su ordenador. Las cookies por sí
               mismas no identifican al usuario individual, sino al ordenador
               utilizado. Muchas páginas hacen esto cada vez que un usuario
@@ -348,11 +345,12 @@
             <p class="font-weight-bold">Preguntas:</p>
             <p>
               Puede dirigir cualquier pregunta relacionada con estos términos a:
-              <a href="mailto:info@prestamagico.com">info@prestamagico.com</a>
+              <a href="mailto:info@japiapp.com.mx.com">info@japiapp.com.mx.com</a>
             </p>
             <p>
-              Pixel Dynamic: Guadalupe 120, Ex-Hacienda Coapa, Delegación
-              Tlalpan C.P. 14300
+              JAPI: Presidente Masaryk 61.
+Chapultepec V sección.
+Polanco CDMX 11500
             </p>
             <p class="text-center mt-5">
               <b-button

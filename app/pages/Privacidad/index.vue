@@ -6,8 +6,8 @@
           <h1 class="mt-5 text-primary h2">Aviso de privacidad.</h1>
           <b-card class="px-2 px-md-5 py-4 small">
             <p>
-              Aviso de privacidad prestamagico.com es propiedad de y es operado
-              por Pixel Dynamic. El siguiente Aviso de privacidad protege tu
+              Aviso de privacidad japiapp.com.mx es propiedad de y es operado
+              por JAPI. El siguiente Aviso de privacidad protege tu
               información personal de acuerdo con la Ley Federal de Protección
               de Datos en Posesión de los Particulares. Este Aviso de privacidad
               explica cómo recolectaremos y usaremos algunos de tus datos
@@ -15,15 +15,15 @@
               medidas de control y prevención tomados para asegurar que tu
               información esté segura y permanezca confidencial. Responsable En
               cumplimiento con la Ley Federal de Protección de Datos Personales
-              en Posesión de los Particulares, Pixel Dynamic, (en adelante
-              prestamagico.com) te informa que prestamagico.com es responsable
+              en Posesión de los Particulares, JAPI, (en adelante
+              japiapp.com.mx) te informa que japiapp.com.mx es responsable
               de la recolección, utilización, almacenamiento, comunicación y
               protección de tus datos personales. El "Usuario" podrá contactar a
-              prestamagico.com en cualquier momento a través del correo
-              electrónico info@prestamagico.com, para el ejercicio de sus
+              japiapp.com.mx en cualquier momento a través del correo
+              electrónico info@japiapp.com.mx, para el ejercicio de sus
               derechos ARCO. A través de mecanismos administrativos, técnicos y
               físicos, como encriptación de datos o uso de contraseñas para
-              acceder a información confidencial, entre otras, prestamagico.com
+              acceder a información confidencial, entre otras, japiapp.com.mx
               protege y salvaguarda tus datos personales financieros y
               patrimoniales para evitar el daño, pérdida, destrucción, robo,
               extravío, alteración o tratamiento no autorizado de los mismos.
@@ -40,7 +40,7 @@
               de Datos Personales en Posesión de los Particulares.
             </p>
             <p>
-              prestamagico.com mantendrá la confidencialidad de tus datos
+              Japiapp.com.mx mantendrá la confidencialidad de tus datos
               personales estableciendo y manteniendo de forma efectiva, mediante
               medidas de seguridad administrativas, técnicas y físicas como
               encriptación de datos y uso de contraseñas, entre otras, para
@@ -57,7 +57,7 @@
                 Prestar el servicio de asesoría, comparación, simulación y
                 cálculo de cotizaciones de productos financieros, de seguros y
                 de inmuebles. Como parte de la prestación del servicio,
-                prestamagico.com transferirá tus datos personales a
+                japiapp.com.mx transferirá tus datos personales a
                 instituciones bancarias o entidades financieras generales,
                 aseguradoras, brokers hipotecarios y/o inmobiliarios,
                 desarrolladores inmobiliarios y entidades de investigación
@@ -87,10 +87,10 @@
             <p>
               Consulta de datos personales Como parte de los términos y
               condiciones, el usuario autoriza por única ocasión a
-              prestamagico.com (Pixel Dynamic) y terceros a consultar sus
+              japiapp.com.mx (JAPI) y terceros a consultar sus
               antecedentes crediticios ante las Sociedades de Información
               Crediticia que estime conveniente, declarando que conoce la
-              naturaleza, alcance y uso que prestamagico.com hará de tal
+              naturaleza, alcance y uso que japiapp.com.mx hará de tal
               información.
             </p>
             <p>
@@ -102,13 +102,13 @@
               Limitación de usos y divulgación de los datos personales En
               nuestro programa de notificación de promociones, boletín de
               noticias, blog, ofertas y servicios a través de correo
-              electrónico, solo prestamagico.com tiene acceso a la información
+              electrónico, solo japiapp.com.mx tiene acceso a la información
               recabada. Este tipo de publicidad y comunicación se realiza
               mediante avisos y mensajes promocionales de correo electrónico,
               redes sociales y/o telefonía móvil, los cuales solo serán enviados
               a ti y a los contactos registrados para tal propósito. La
               suscripción a este servicio podrá modificarse en cualquier momento
-              escribiendo a info@prestamagico.com. En los correos electrónicos
+              escribiendo a info@japiapp.com.mx. En los correos electrónicos
               enviados pueden incluirse, ocasionalmente, ofertas de terceras
               partes que sean nuestros socios comerciales.
             </p>
@@ -167,7 +167,7 @@
               cookie o cómo deshabilitar todas las cookies.
             </p>
             <p>
-              Pixel Dynamic, titular del portal prestamagico.com almacena
+              JAPI, titular del portal japiapp.com.mx almacena
               automáticamente los datos del usuario, por ejemplo, cuando se
               registra en el portal o cuando contacta a la empresa ya sea
               personalmente o respondiendo a preguntas por correo, redes
@@ -177,23 +177,23 @@
               Derechos ARCO (Acceso, Rectificación, Cancelación y Oposición) En
               cumplimiento de lo dispuesto por los artículos 15, 16, 17, 18 y 19
               de la Ley Federal de Protección de Datos Personales en Posesión de
-              Particulares, Pixel Dynamic., titular del portal prestamagico.com
+              Particulares, JAPI., titular del portal japiapp.com.mx
               ha designado a un Oficial de Datos como encargado del Departamento
               de Servicios y Protección de Datos Personales. Para comunicarte
               con el Oficial de Datos escribe un correo electrónico a
-              info@prestamagico.com
+              info@japiapp.com.mx
             </p>
             <p>Para ejercer derechos ARCO y revocar consentimiento otorgado</p>
             <p>
               Como titular de sus datos personales, el usuario podrá ejercitar
               los derechos ARCO (Acceso, Rectificación, Cancelación y Oposición
               al tratamiento de sus datos personales), o bien, revocar el
-              consentimiento que haya otorgado a prestamagico.com para el
+              consentimiento que haya otorgado a japiapp.com.mx para el
               tratamiento de sus datos, enviando directamente su solicitud al
               Oficial de Datos, encargado del Departamento de Servicio y
               Protección de Datos Personales. Para ejercer sus derechos ARCO, el
               usuario deberá enviar un correo electrónico a
-              info@prestamagico.com.
+              info@japiapp.com.mx.
             </p>
             <p>
               Dicha solicitud deberá contener por lo menos: (a) nombre y
@@ -215,17 +215,17 @@
               provenga la petición.
             </p>
             <p>
-              prestamagico.com solicita al usuario que actualice sus datos cada
+              Japiapp.com.mx solicita al usuario que actualice sus datos cada
               vez que éstos sean modificados, ya que esto permitirá brindarle un
               servicio eficiente y personalizado.
             </p>
             <p>
               Transferencia de Información con Terceros Los datos solicitados
-              son indispensables para que prestamagico.com te proporcione
+              son indispensables para que japiapp.com.mx te proporcione
               servicio, por lo que de no contar con los mismos, la sociedad se
               encuentra materialmente imposibilitada de cumplir el fin principal
               de la relación con sus usuarios. Como parte de la prestación del
-              servicio, prestamagico.com transferirá tus datos personales a
+              servicio, japiapp.com.mx transferirá tus datos personales a
               instituciones bancarias o entidades financieras generales,
               aseguradoras, brokers hipotecarios y/o inmobiliarios,
               desarrolladores inmobiliarios y entidades de investigación
@@ -234,7 +234,7 @@
             <ul>
               <li>
                 Compañías asociadas que tengan una relación comercial con
-                prestamagico.com, así como sucursales de prestamagico.com
+                japiapp.com.mx, así como sucursales de japiapp.com.mx
               </li>
               <li>
                 Instituciones bancarias o entidades financieras generales,
@@ -255,7 +255,7 @@
             <p>
               Protección<br />
 
-              Pixel Dynamic, titular del portal prestamagico.com ha adoptado
+              JAPI, titular del portal japiapp.com.mx ha adoptado
               medidas de seguridad administrativas, técnicas y físicas como
               encriptación de datos o uso de contraseñas para acceder a
               información confidencial, entre otras, que permiten proteger los
@@ -267,11 +267,11 @@
               la Ley Federal de Protección de Datos Personales en Posesión de
               Particulares. Queda expresamente señalado que el servicio de
               asesoría, comparación, simulación, cálculo y cotización de
-              productos financieros y seguros que presta Pixel Dynamic. a través
-              de su portal, prestamagico.com, lo hace de forma estimada con base
+              productos financieros y seguros que presta JAPI. a través
+              de su portal, japiapp.com.mx, lo hace de forma estimada con base
               en la información publicada por las instituciones financieras y de
               seguros, por lo que se pueden presentar cambios sin previo aviso.
-              Pixel Dynamic no es responsable de cerciorarse o comprobar la
+              JAPI no es responsable de cerciorarse o comprobar la
               veracidad de la información proporcionada por las diversas
               instituciones financieras y de seguros, así como por instituciones
               gubernamentales; tampoco es responsable de asegurarse del
@@ -289,16 +289,10 @@
               ofrecimiento de nuestros servicios o productos y prácticas del
               mercado. Las referidas modificaciones o actualizaciones serán
               publicadas y puestas a disposición del público a través del portal
-              prestamagico.com, sección Aviso de privacidad.
+              japiapp.com.mx, sección Aviso de privacidad.
             </p>
             <p class="text-center mt-5">
-              <b-button
-                class="px-3 px-md-5"
-                variant="warning"
-                pill
-                to="/deudas/bank"
-                >Quiero probar el servicio</b-button
-              >
+             
             </p>
           </b-card>
         </b-col>

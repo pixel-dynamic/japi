@@ -3,7 +3,7 @@
     <div id="accordeon-1" class="accrodion active">
       <div class="accrodion-inner" @click="accordeon('accordeon-1')">
         <div v-b-toggle.accordion-1 class="accrodion-title">
-          <h4>¿Cómo funciona prestamagico?</h4>
+          <h4>¿Cómo funciona Japiapp?</h4>
         </div>
         <b-collapse
           id="accordion-1"
@@ -14,7 +14,7 @@
         >
           <div class="inner">
             <p>
-              Prestamagico es un buscador de soluciones financieras. Para
+              Japiapp es un buscador de soluciones financieras. Para
               obtener tu oferta financiera únicamente tienes que responder lo
               más honestamente las preguntas de nuestro formulario y nosotros
               buscaremos entre nuestra red de socios financieros la mejor oferta
@@ -27,7 +27,7 @@
     <div id="accordeon-2" class="accrodion">
       <div class="accrodion-inner" @click="accordeon('accordeon-2')">
         <div v-b-toggle.accordion-2 class="accrodion-title">
-          <h4>¿El servicio de prestamagico cuesta dinero?</h4>
+          <h4>¿El servicio de Japiapp cuesta dinero?</h4>
         </div>
         <b-collapse
           id="accordion-2"
@@ -38,7 +38,7 @@
         >
           <div class="inner">
             <p>
-              Prestamagico siempre ha sido, es y será 100% gratuito y nunca te
+              Japiapp siempre ha sido, es y será 100% gratuito y nunca te
               pediremos ningún tipo de pago, depósito o comisión.
             </p>
           </div>
@@ -69,7 +69,7 @@
     <div id="accordeon-4" class="accrodion">
       <div @click="accordeon('accordeon-4')" class="accrodion-inner">
         <div class="accrodion-title" v-b-toggle.accordion-4>
-          <h4>¿Prestamagico es Mexicano?</h4>
+          <h4>¿Japiapp es Mexicano?</h4>
         </div>
         <b-collapse
           id="accordion-4"
@@ -80,7 +80,7 @@
         >
           <div class="inner">
             <p>
-              Si, prestamagico es una empresa 100% mexicana, creada por
+              Si, Japiapp es una empresa 100% mexicana, creada por
               mexicanos y para mexicanos.
             </p>
           </div>

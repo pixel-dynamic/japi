@@ -125,7 +125,7 @@ export default {
         this.$store.commit('setJob', this.selected)
         this.$router.push('/prestamos/income')
       } else {
-        alert('por favor slecciona una opcion')
+        alert('por favor selecciona una opcion')
       }
     },
   },
