@@ -27,6 +27,10 @@ export default {
         content:
           'Plataforma digital para encontrar la mejor reparadora de crédito en México.',
       },
+      {
+        name: 'facebook-domain-verification',
+        content: 'oa2263sc5gqzauevz7klallm981lxs',
+      },
       { hid: 'og:site_name', name: 'og:site_name', content: 'Japi' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
