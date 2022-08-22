@@ -1,25 +1,34 @@
 <template>
-  <section class="d-flex align-items-start h100 bg-gradient pt-5">
-    <b-container class="pt-3">
-      <b-row class="justify-content-center">
-        <b-col sm="10" md="6" class="text-white">
-          <div class="d-sm-block d-none text-center w-100">
-            <label class="text-white">Paso 4 de 4</label>
-          </div>
-          <b-card class="text-left text-body border results-card">
-            <h1 class="title mb-5 text-center text-primary">
-              Datos demograficos
-            </h1>
-            <b-row>
-              <b-col>
-                <FormPath :born="true" @update="sendUser" />
-              </b-col>
-            </b-row>
-          </b-card>
-        </b-col>
-      </b-row>
-    </b-container>
-  </section>
+  <div>
+    <section class="bg-gradient h40">
+      <b-container>
+        <b-row>
+          <b-col></b-col>
+        </b-row>
+      </b-container>
+    </section>
+    <section class="h40 bg-smoke py-5">
+      <b-container class="mb-5 container-step">
+        <b-row class="justify-content-center">
+          <b-col sm="10" md="6" class="text-white">
+            <div class="d-sm-block d-none text-center w-100">
+              <label class="text-white">Paso 4 de 4</label>
+            </div>
+            <div class="bg-purple-header w-100 p-4 text-white">
+              <h1 class="title text-center">Datos demograficos</h1>
+            </div>
+            <b-card class="text-left text-body shadow-lg results-card">
+              <b-row>
+                <b-col>
+                  <FormPath :born="true" @update="sendUser" />
+                </b-col>
+              </b-row>
+            </b-card>
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
+  </div>
 </template>
 
 <script>

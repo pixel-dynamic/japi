@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="d-flex align-items-center h100 bg-index relative">
+    <section class="d-flex align-items-center h100 bg-gradient relative">
       <div id="overlay"></div>
       <Background />
       <b-container class="z3">
