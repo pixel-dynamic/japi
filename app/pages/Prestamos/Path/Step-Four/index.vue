@@ -14,7 +14,7 @@
             <div class="d-sm-block d-none text-center w-100">
               <label class="text-white">Paso 4 de 4</label>
             </div>
-            <div class="bg-purple-header w-100 p-4 text-white">
+            <div class="bg-purple-header w-100 p-4 text-white mt-3 mt-sm-0">
               <p>
                 Recuerda que sin importar tus respuestas, encontraremos una
                 oferta personalizada para ti. Por favor, responde honestamente.
