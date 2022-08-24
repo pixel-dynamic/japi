@@ -155,17 +155,17 @@ export default {
 <style scoped>
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: rgb(174, 128, 184);
+  color: rgb(44, 80, 200);
   opacity: 1; /* Firefox */
 }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: rgb(174, 128, 184);
+  color: rgb(44, 80, 200);
 }
 
 ::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: rgb(174, 128, 184);
+  color: rgb(44, 80, 200);
 }
 </style>

@@ -14,8 +14,11 @@
             <label class="d-sm-block d-none text-white w-100"
               >Paso 3 de 4</label
             >
-            <div class="bg-purple-header w-100 p-4 text-white">
-              <h1 class="title text-center">Datos laborales</h1>
+            <div class="bg-purple-header w-100 p-3 text-white mt-5 mt-sm-0">
+              <p class="mb-0 small">
+                Recuerda que sin importar tus respuestas, encontraremos una
+                oferta personalizada para ti. Por favor, responde honestamente.
+              </p>
             </div>
             <b-card class="text-left text-body shadow-lg results-card mb-3">
               <h1 class="title mb-3 text-center text-primary">

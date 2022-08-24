@@ -15,9 +15,13 @@
               <label class="text-white">Paso 4 de 4</label>
             </div>
             <div class="bg-purple-header w-100 p-4 text-white">
-              <h1 class="title text-center">Datos demograficos</h1>
+              <p>
+                Recuerda que sin importar tus respuestas, encontraremos una
+                oferta personalizada para ti. Por favor, responde honestamente.
+              </p>
             </div>
             <b-card class="text-left text-body shadow-lg results-card">
+              <h1 class="title text-center">Datos demograficos</h1>
               <b-row>
                 <b-col>
                   <FormPath :born="true" @update="sendUser" />

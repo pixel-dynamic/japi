@@ -1,7 +1,12 @@
 <template>
   <b-navbar type="light" variant="light" fixed="top">
     <b-navbar-brand>
-      <img width="40" height="40" src="../assets/img/512.png" />
+      <img
+        width="40"
+        height="40"
+        src="../assets/img/logoblanco.png"
+        alt="Japi"
+      />
       <b-button v-b-toggle.sidebar-1 variant="link"
         >menu <b-icon icon="arrow-bar-right"></b-icon
       ></b-button>

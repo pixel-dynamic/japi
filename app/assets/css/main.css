@@ -96,7 +96,7 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(137, 5, 212, 0.7); /* Black background with opacity */
+  /* background-color: rgba(137, 5, 212, 0.7); Black background with opacity */
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer; /* Add a pointer on hover */
 }
@@ -116,18 +116,18 @@ a {
   background-color: #f5637e;
 }
 .bg-purple-header {
-  background-color: #59148f;
+  background-color: #ffa200;
 }
 .bg-smoke {
   background-color: #f3f3f3;
 }
 .bg-gradient {
-  background: rgb(137, 5, 212);
+  background: rgb(44, 80, 200);
   background: linear-gradient(
-    180deg,
-    rgba(137, 5, 212, 1) 0%,
-    rgba(246, 120, 226, 1) 0%,
-    rgba(136, 1, 122, 1) 100%
+    187deg,
+    rgba(44, 80, 200, 1) 0%,
+    rgba(60, 161, 201, 1) 100%,
+    rgba(47, 122, 243, 1) 100%
   );
 }
 .bg-index {
@@ -167,7 +167,7 @@ a {
 .button-green {
   background-color: #6eca3c;
   border-color: #6eca3c;
-  transition: all ease .3s;
+  transition: all ease 0.3s;
   color: #fff;
   font-weight: 600;
 }
@@ -318,7 +318,7 @@ a {
 }
 
 .text-primary {
-  color: #bc00b0 !important;
+  color: rgb(44, 80, 200) !important;
 }
 .text-kuepa {
   color: #ff671b !important;
@@ -438,13 +438,13 @@ a {
 /* Mask input currency */
 .input-masked {
   background-color: transparent;
-  color: #bc00b0;
-  border-radius: 0;
-  border-top: 0px;
-  border-left: 0px;
-  border-right: 0px;
-  border-bottom: 3px solid #bc00b0;
-  font-size: 1.3rem;
+  color: #002cbc;
+  border-radius: 10px;
+  /* border-top: 0px; */
+  /* border-left: 0px; */
+  /* border-right: 0px; */
+  /* border-bottom: 3px solid #bc00b0; */
+  font-size: 1rem;
 }
 .input-masked:focus,
 .input-masked:active {
@@ -484,7 +484,7 @@ a {
   vertical-align: middle;
   border: 1px solid #b9b8c3;
   transition: all 0.2s ease;
-  background-color: rgba(137, 5, 212, 1);
+  background-color:rgb(44, 80, 200);
 }
 .cbx span:first-child svg {
   position: absolute;
@@ -545,7 +545,7 @@ a {
   transition: all 0.6s ease;
 }
 .inp-cbx:checked + .cbx span:last-child {
-  color: #75026e;
+  color: rgb(44, 80, 200);
   transition: all 0.3s ease;
 }
 .inp-cbx:checked + .cbx span:last-child:after {
@@ -891,7 +891,7 @@ a {
   }
 
   .results-card li {
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
 
   .results-card ul {
@@ -899,6 +899,6 @@ a {
   }
 
   .results-card .btn {
-    font-size: .85rem;
+    font-size: 0.85rem;
   }
 }

@@ -16,8 +16,8 @@
       <b-row>
         <b-col>
           <p class="small text-center mt-4">
-            <span class="font-weight-bold">2022 © japiapp.com.mx</span> -
-            Todos los derechos reservados. Al usar este sitio, aceptas nuestra
+            <span class="font-weight-bold">2022 © japiapp.com.mx</span> - Todos
+            los derechos reservados. Al usar este sitio, aceptas nuestra
             política de privacidad, así como nuestros términos y condiciones.
           </p>
         </b-col>
@@ -28,7 +28,7 @@
 
 <style scoped>
 .footer {
-  background: rgb(47, 8, 54);
+  background: rgb(44, 80, 200);
   color: #fff;
 }
 a {

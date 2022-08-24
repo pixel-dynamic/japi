@@ -1,7 +1,9 @@
 <template>
   <div :class="['w-100', 'topbar', { dark }]">
     <b-link to="/">
-      <h3 class="text-white">JAPIAPP</h3>
+      <h3 class="text-white">
+        <img width="140" src="../assets/img/logoblanco.png" alt="Japi" />
+      </h3>
     </b-link>
   </div>
 </template>
