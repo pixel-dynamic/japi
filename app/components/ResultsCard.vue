@@ -187,6 +187,12 @@ export default {
             '_blank'
           )
           break
+        case 'urgente':
+          window.open(
+            'https://track.affi99.com/click?pid=66&offer_id=250',
+            '_blank'
+          )
+          break
         default:
           this.$router.replace('/oferta')
       }
