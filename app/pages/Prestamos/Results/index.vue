@@ -65,36 +65,36 @@ export default {
           paymentDeadlines: ['Hasta 30 días'],
           benefits: ['Sin buró de crédito', 'Sin comisiones'],
         },
-        // {
-        //   class: 'd-flex align-items-center',
-        //   img: {
-        //     src: '/logos/logo-titan.png',
-        //     alt: 'Crédito Titan',
-        //     class: 'w-75 my-3',
-        //   },
-        //   action: 'titan',
-        //   amounts: ['Más de <span class="font-weight-bold">$10,000</span>'],
-        //   deliveryTerms: ['10 minutos'],
-        //   paymentDeadlines: ['4 años o más'],
-        //   benefits: ['Sin buró de crédito', 'Sin comisiones'],
-        // },
         {
           class: 'd-flex align-items-center',
           img: {
-            src: '/logos/prestamourgente.png',
-            alt: 'Prestamo Urgente',
+            src: '/logos/logo-titan.png',
+            alt: 'Crédito Titan',
             class: 'w-75 my-3',
           },
-          action: 'urgente',
-          amounts: [
-            'hasta <span class="font-weight-bold text-success">$10,000</span>',
-          ],
-          deliveryTerms: [
-            '<span class="font-weight-bold">Menos de 2 horas</span>',
-          ],
-          paymentDeadlines: ['2 años o más'],
-          benefits: ['Obtenlo hoy mismo con tu CLABE y CURP'],
+          action: 'titan',
+          amounts: ['Más de <span class="font-weight-bold">$10,000</span>'],
+          deliveryTerms: ['10 minutos'],
+          paymentDeadlines: ['4 años o más'],
+          benefits: ['Sin buró de crédito', 'Sin comisiones'],
         },
+        // {
+        //   class: 'd-flex align-items-center',
+        //   img: {
+        //     src: '/logos/prestamourgente.png',
+        //     alt: 'Prestamo Urgente',
+        //     class: 'w-75 my-3',
+        //   },
+        //   action: 'urgente',
+        //   amounts: [
+        //     'hasta <span class="font-weight-bold text-success">$10,000</span>',
+        //   ],
+        //   deliveryTerms: [
+        //     '<span class="font-weight-bold">Menos de 2 horas</span>',
+        //   ],
+        //   paymentDeadlines: ['2 años o más'],
+        //   benefits: ['Obtenlo hoy mismo con tu CLABE y CURP'],
+        // },
       ],
     }
   },
