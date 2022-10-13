@@ -100,9 +100,7 @@
         ><span>
           <svg width="12px" height="9px" viewbox="0 0 12 9">
             <polyline points="1 5 4 8 11 1"></polyline></svg></span
-        ><span
-          >Acepto recibir ofertas por correo electrónico. (opcional)</span
-        ></label
+        ><span>Acepto recibir ofertas por correo electrónico.</span></label
       >
     </b-form-group>
     <b-row class="justify-content-center mt-5 mb-3">
