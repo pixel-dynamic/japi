@@ -88,6 +88,23 @@
         ></label
       >
     </b-form-group>
+    <b-form-group v-if="!born" class="relative">
+      <input
+        id="cbx3"
+        v-model="form.check"
+        class="inp-cbx"
+        type="checkbox"
+        name="cbx3"
+      />
+      <label class="cbx" for="cbx3"
+        ><span>
+          <svg width="12px" height="9px" viewbox="0 0 12 9">
+            <polyline points="1 5 4 8 11 1"></polyline></svg></span
+        ><span
+          >Acepto recibir ofertas por correo electrónico. (opcional)</span
+        ></label
+      >
+    </b-form-group>
     <b-row class="justify-content-center mt-5 mb-3">
       <b-col cols="auto">
         <b-button type="submit" class="px-4" variant="warning"
@@ -116,6 +133,7 @@ export default {
         state: null,
         terms: false,
         privacy: false,
+        check: false,
       },
       options: states,
     }
