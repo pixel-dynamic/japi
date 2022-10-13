@@ -186,4 +186,7 @@ export default {
   /* Microsoft Edge */
   color: rgb(44, 80, 200);
 }
+label {
+  font-size: 12px;
+}
 </style>
