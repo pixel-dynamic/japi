@@ -65,19 +65,6 @@ export default {
           paymentDeadlines: ['Hasta 30 días'],
           benefits: ['Sin buró de crédito', 'Sin comisiones'],
         },
-        // {
-        //   class: 'd-flex align-items-center',
-        //   img: {
-        //     src: '/logos/logo-titan.png',
-        //     alt: 'Crédito Titan',
-        //     class: 'w-75 my-3',
-        //   },
-        //   action: 'titan',
-        //   amounts: ['Más de <span class="font-weight-bold">$10,000</span>'],
-        //   deliveryTerms: ['10 minutos'],
-        //   paymentDeadlines: ['4 años o más'],
-        //   benefits: ['Sin buró de crédito', 'Sin comisiones'],
-        // },
         {
           class: 'd-flex align-items-center',
           img: {
@@ -94,6 +81,22 @@ export default {
           ],
           paymentDeadlines: ['2 años o más'],
           benefits: ['Obtenlo hoy mismo con tu CLABE y CURP'],
+        },
+        {
+          class: 'd-flex align-items-center',
+          img: {
+            src: '/logos/coppel.png',
+            alt: 'Coppel',
+            class: 'w-75 my-3',
+          },
+          action: 'titan',
+          amounts: ['Hasta <span class="font-weight-bold">$12,000</span>'],
+          deliveryTerms: ['Tu crédito en minutos'],
+          paymentDeadlines: ['Obtener tu crédito solo te toma 3 pasos'],
+          benefits: [
+            'Sin comprobante de ingresos ni historial de crédito',
+            '¡Comienza a estrenar!',
+          ],
         },
       ],
     }
