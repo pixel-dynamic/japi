@@ -165,7 +165,7 @@ export default {
           break
         case 'coppel':
           window.open(
-            'https://afiliacion.net/?a=1988640&c=13747&s1=AI_AgenciaIvan_MX-SMS',
+            'https://afiliacion.net/?a=1988733&c=15285&s1=SN-SuperNova_MX-BD',
             '_blank'
           )
           break

@@ -89,7 +89,7 @@ export default {
             alt: 'Coppel',
             class: 'w-75 my-3',
           },
-          action: 'titan',
+          action: 'coppel',
           amounts: ['Hasta <span class="font-weight-bold">$12,000</span>'],
           deliveryTerms: ['Tu crédito en minutos'],
           paymentDeadlines: ['Obtener tu crédito solo te toma 3 pasos'],
