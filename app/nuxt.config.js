@@ -57,6 +57,14 @@ export default {
     //     });`,
     //   },
     // ],
+    script: [
+      {
+        src:
+          'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9717001873749827',
+        async: true,
+        crossorigin: 'anonymous',
+      },
+    ],
     __dangerouslyDisableSanitizers: ['script'],
   },
 
@@ -77,6 +85,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    '@nuxtjs/google-analytics',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -106,6 +115,10 @@ export default {
     pixelId: '900659661337008',
     autoPageView: true,
     disabled: false,
+  },
+
+  googleAnalytics: {
+    id: 'G-ND9H4MZR5M',
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa

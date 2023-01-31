@@ -1,8 +1,8 @@
 <template>
   <!-- eslint-disable vue/no-v-html -->
-  <b-card class="results-card border mb-1 mb-md-5">
-    <b-row class="flex-sm-row">
-      <b-col cols="5" md="3" class="mb-4 mb-md-0">
+  <b-card class="results-card border mb-0 mb-md-1">
+    <b-row class="flex-sm-row d-flex align-items-center">
+      <b-col cols="5" md="2" class="mb-4 mb-md-0">
         <img :src="info.img.src" :alt="info.img.alt" class="my-2 mb-3" />
         <div>
           <b-button
@@ -15,7 +15,7 @@
           </b-button>
         </div>
       </b-col>
-      <b-col cols="7">
+      <b-col cols="7" md="10">
         <b-row>
           <b-col
             v-if="info.amounts && info.amounts.length"
@@ -192,6 +192,12 @@ export default {
             'https://track.affi99.com/click?pid=66&offer_id=250',
             '_blank'
           )
+          break
+        case 'crezu':
+          window.open('https://ad.soicos.com/-1lF5', '_blank')
+          break
+        case 'credy':
+          window.open('https://ad.soicos.com/-1lJh', '_blank')
           break
         default:
           this.$router.replace('/oferta')
