@@ -85,7 +85,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@nuxtjs/google-analytics',
+    // '@nuxtjs/google-analytics',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -117,9 +117,9 @@ export default {
     disabled: false,
   },
 
-  googleAnalytics: {
-    id: 'G-ND9H4MZR5M',
-  },
+  // googleAnalytics: {
+  //   id: 'G-ND9H4MZR5M',
+  // },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
