@@ -49,22 +49,22 @@ export default {
       show: true,
       showLoan: false,
       results: [
-        {
-          img: {
-            src: '/logos/kueski2.png',
-            alt: 'Kueski',
-          },
-          action: 'kueski',
-          amounts: [
-            'Hasta <span class="font-weight-bold text-success">$2,000</span>',
-            // 'Primer crédito: <span class="font-weight-bold">$2,000</span>',
-          ],
-          deliveryTerms: [
-            '<span class="font-weight-bold">Menos de 2 horas</span>',
-          ],
-          paymentDeadlines: ['Hasta 30 días'],
-          benefits: ['Sin buró de crédito', 'Sin comisiones'],
-        },
+        // {
+        //   img: {
+        //     src: '/logos/kueski2.png',
+        //     alt: 'Kueski',
+        //   },
+        //   action: 'kueski',
+        //   amounts: [
+        //     'Hasta <span class="font-weight-bold text-success">$2,000</span>',
+        //     // 'Primer crédito: <span class="font-weight-bold">$2,000</span>',
+        //   ],
+        //   deliveryTerms: [
+        //     '<span class="font-weight-bold">Menos de 2 horas</span>',
+        //   ],
+        //   paymentDeadlines: ['Hasta 30 días'],
+        //   benefits: ['Sin buró de crédito', 'Sin comisiones'],
+        // },
         {
           class: 'd-flex align-items-center',
           img: {
@@ -82,22 +82,22 @@ export default {
           paymentDeadlines: ['2 años o más'],
           benefits: ['Obtenlo hoy mismo con tu CLABE y CURP'],
         },
-        {
-          class: 'd-flex align-items-center',
-          img: {
-            src: '/logos/coppel.png',
-            alt: 'Coppel',
-            class: 'w-75 my-3',
-          },
-          action: 'coppel',
-          amounts: ['Hasta <span class="font-weight-bold">$12,000</span>'],
-          deliveryTerms: ['Tu crédito en minutos'],
-          paymentDeadlines: ['Obtener tu crédito solo te toma 3 pasos'],
-          benefits: [
-            'Sin comprobante de ingresos ni historial de crédito',
-            '¡Comienza a estrenar!',
-          ],
-        },
+        // {
+        //   class: 'd-flex align-items-center',
+        //   img: {
+        //     src: '/logos/coppel.png',
+        //     alt: 'Coppel',
+        //     class: 'w-75 my-3',
+        //   },
+        //   action: 'coppel',
+        //   amounts: ['Hasta <span class="font-weight-bold">$12,000</span>'],
+        //   deliveryTerms: ['Tu crédito en minutos'],
+        //   paymentDeadlines: ['Obtener tu crédito solo te toma 3 pasos'],
+        //   benefits: [
+        //     'Sin comprobante de ingresos ni historial de crédito',
+        //     '¡Comienza a estrenar!',
+        //   ],
+        // },
       ],
     }
   },
