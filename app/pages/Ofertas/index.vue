@@ -49,56 +49,56 @@ export default {
       show: true,
       showLoan: false,
       results: [
-        {
-          img: {
-            src: '/logos/credy.png',
-            alt: 'Credy',
-          },
-          action: 'credy',
-          amounts: [
-            'Hasta <span class="font-weight-bold text-success">$150,000</span>',
-            // 'Primer crédito: <span class="font-weight-bold">$2,000</span>',
-          ],
-          deliveryTerms: [
-            '<span class="font-weight-bold">Aprobación en 5 minutos</span>',
-          ],
-          paymentDeadlines: ['Hasta 30 días'],
-          benefits: [
-            '0% de intereses y comisiones',
-            'Sin nóminas ni comprobantes de facturación',
-          ],
-        },
-        {
-          img: {
-            src: '/logos/crezu.png',
-            alt: 'Crezu',
-          },
-          action: 'crezu',
-          amounts: [
-            'Hasta <span class="font-weight-bold text-success">$30,000</span>',
-            // 'Primer crédito: <span class="font-weight-bold">$2,000</span>',
-          ],
-          deliveryTerms: ['<span class="font-weight-bold">El mismo día</span>'],
-          paymentDeadlines: ['Hasta 12 meses'],
-          benefits: ['0% en el primer préstamo', 'Sin buró de crédito'],
-        },
-        {
-          class: 'd-flex align-items-center',
-          img: {
-            src: '/logos/prestamourgente.png',
-            alt: 'Prestamo Urgente',
-            class: 'w-75 my-3',
-          },
-          action: 'urgente',
-          amounts: [
-            'hasta <span class="font-weight-bold text-success">$10,000</span>',
-          ],
-          deliveryTerms: [
-            '<span class="font-weight-bold">Menos de 2 horas</span>',
-          ],
-          paymentDeadlines: ['2 años o más'],
-          benefits: ['Obtenlo hoy mismo con tu CLABE y CURP'],
-        },
+        // {
+        //   img: {
+        //     src: '/logos/credy.png',
+        //     alt: 'Credy',
+        //   },
+        //   action: 'credy',
+        //   amounts: [
+        //     'Hasta <span class="font-weight-bold text-success">$150,000</span>',
+        //     // 'Primer crédito: <span class="font-weight-bold">$2,000</span>',
+        //   ],
+        //   deliveryTerms: [
+        //     '<span class="font-weight-bold">Aprobación en 5 minutos</span>',
+        //   ],
+        //   paymentDeadlines: ['Hasta 30 días'],
+        //   benefits: [
+        //     '0% de intereses y comisiones',
+        //     'Sin nóminas ni comprobantes de facturación',
+        //   ],
+        // },
+        // {
+        //   img: {
+        //     src: '/logos/crezu.png',
+        //     alt: 'Crezu',
+        //   },
+        //   action: 'crezu',
+        //   amounts: [
+        //     'Hasta <span class="font-weight-bold text-success">$30,000</span>',
+        //     // 'Primer crédito: <span class="font-weight-bold">$2,000</span>',
+        //   ],
+        //   deliveryTerms: ['<span class="font-weight-bold">El mismo día</span>'],
+        //   paymentDeadlines: ['Hasta 12 meses'],
+        //   benefits: ['0% en el primer préstamo', 'Sin buró de crédito'],
+        // },
+        // {
+        //   class: 'd-flex align-items-center',
+        //   img: {
+        //     src: '/logos/prestamourgente.png',
+        //     alt: 'Prestamo Urgente',
+        //     class: 'w-75 my-3',
+        //   },
+        //   action: 'urgente',
+        //   amounts: [
+        //     'hasta <span class="font-weight-bold text-success">$10,000</span>',
+        //   ],
+        //   deliveryTerms: [
+        //     '<span class="font-weight-bold">Menos de 2 horas</span>',
+        //   ],
+        //   paymentDeadlines: ['2 años o más'],
+        //   benefits: ['Obtenlo hoy mismo con tu CLABE y CURP'],
+        // },
         {
           class: 'd-flex align-items-center',
           img: {
