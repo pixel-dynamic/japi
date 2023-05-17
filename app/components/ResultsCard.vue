@@ -133,6 +133,18 @@ export default {
     fireFacebook(client) {
       this.$fb.track('Lead')
       switch (client) {
+        case 'dineria':
+          window.open(
+            'https://track.affi99.com/click?pid=66&offer_id=136',
+            '_blank'
+          )
+          break
+        case 'creedy':
+          window.open(
+            'https://ad.soicos.com/-1lsv',
+            '_blank'
+          )
+          break
         case 'kueski':
           window.open(
             'https://kueski.com/prestamos-personales?utm_source=rdbcxx&utm_medium=p_sms&utm_campaign=comparador&utm_term=ppg&utm_content=nh',
