@@ -82,40 +82,40 @@ export default {
           paymentDeadlines: ['2 años o más'],
           benefits: ['Obtenlo hoy mismo con tu CLABE y CURP'],
         },
-        {
-          class: 'd-flex align-items-center',
-          img: {
-            src: '/logos/logo-dineria.png',
-            alt: 'Dineria',
-            class: 'w-75 my-3',
-          },
-          action: 'dineria',
-          amounts: [
-            'hasta <span class="font-weight-bold text-success">$30,000</span>',
-          ],
-          deliveryTerms: [
-            '<span class="font-weight-bold">Menos de 24 horas</span>',
-          ],
-          paymentDeadlines: ['30 días'],
-          benefits: ['Solicitalo hoy mismo con tu RFC'],
-        },
-        {
-          class: 'd-flex align-items-center',
-          img: {
-            src: '/logos/logo-creedy.png',
-            alt: 'Creedy',
-            class: 'w-75 my-3',
-          },
-          action: 'creedy',
-          amounts: [
-            'hasta <span class="font-weight-bold text-success">$30,000</span>',
-          ],
-          deliveryTerms: [
-            '<span class="font-weight-bold">Menos de 2 horas</span>',
-          ],
-          paymentDeadlines: ['12 meses'],
-          benefits: ['Tu primer prestamo sin intereses'],
-        },
+        // {
+        //   class: 'd-flex align-items-center',
+        //   img: {
+        //     src: '/logos/logo-dineria.png',
+        //     alt: 'Dineria',
+        //     class: 'w-75 my-3',
+        //   },
+        //   action: 'dineria',
+        //   amounts: [
+        //     'hasta <span class="font-weight-bold text-success">$30,000</span>',
+        //   ],
+        //   deliveryTerms: [
+        //     '<span class="font-weight-bold">Menos de 24 horas</span>',
+        //   ],
+        //   paymentDeadlines: ['30 días'],
+        //   benefits: ['Solicitalo hoy mismo con tu RFC'],
+        // },
+        // {
+        //   class: 'd-flex align-items-center',
+        //   img: {
+        //     src: '/logos/logo-creedy.png',
+        //     alt: 'Creedy',
+        //     class: 'w-75 my-3',
+        //   },
+        //   action: 'creedy',
+        //   amounts: [
+        //     'hasta <span class="font-weight-bold text-success">$30,000</span>',
+        //   ],
+        //   deliveryTerms: [
+        //     '<span class="font-weight-bold">Menos de 2 horas</span>',
+        //   ],
+        //   paymentDeadlines: ['12 meses'],
+        //   benefits: ['Tu primer prestamo sin intereses'],
+        // },
         // {
         //   class: 'd-flex align-items-center',
         //   img: {
