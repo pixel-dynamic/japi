@@ -65,7 +65,7 @@ export default {
       // this.$router.push('/prestamos/results')
 
       this.$axios
-        .post('https://api.prestamagico.com/api/loans/', this.getUser)
+        .post('https://prestamagico.pixelapis.com/api/loans/', this.getUser)
         .then((response) => {
           console.log(response.data.message)
           this.$router.push('/prestamos/results')

@@ -72,7 +72,7 @@ export default {
       }
 
       this.$axios
-        .post('https://api.prestamagico.com/api/debts/', params)
+        .post('https://prestamagico.pixelapis.com/api/debts/', params)
         .then((response) => {
           console.log(response.data.message)
           // this.$router.push('/deudas/results')
