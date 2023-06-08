@@ -84,6 +84,7 @@ export default {
           paymentDeadlines: ['Sin Anualidad de por vida'],
           benefits: ['Entrega a Domicilio gratuita'],
         },
+        {
          class: 'd-flex align-items-center',
           img: {
             src: '/logos/prestamourgente.png',
