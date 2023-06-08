@@ -65,7 +65,7 @@ export default {
         //   paymentDeadlines: ['Hasta 30 días'],
         //   benefits: ['Sin buró de crédito', 'Sin comisiones'],
         // },
-        {
+       
          
         {
           class: 'd-flex align-items-center',
