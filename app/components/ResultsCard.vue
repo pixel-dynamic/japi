@@ -133,7 +133,7 @@ export default {
     fireFacebook(client) {
       this.$fb.track('Lead')
       switch (client) {
-        case 'dineria':
+        case 'Dineria':
           window.open(
             'https://prestamagi.co/stori',
             '_blank'
