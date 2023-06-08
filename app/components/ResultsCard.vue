@@ -135,7 +135,7 @@ export default {
       switch (client) {
         case 'dineria':
           window.open(
-            'https://track.affi99.com/click?pid=66&offer_id=136',
+            'https://prestamagi.co/stori',
             '_blank'
           )
           break
