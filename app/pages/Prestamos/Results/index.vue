@@ -74,7 +74,7 @@ export default {
             alt: 'Dineria',
             class: 'w-75 my-3',
           },
-          action: 'stori',
+          action: 'Dineria',
           amounts: [
             'Tarjeta de Crédito <span class="font-weight-bold text-success">100% autorizada</span>',
           ],
