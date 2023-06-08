@@ -66,7 +66,25 @@ export default {
         //   benefits: ['Sin buró de crédito', 'Sin comisiones'],
         // },
         {
+         
+        {
           class: 'd-flex align-items-center',
+          img: {
+            src: '/logos/storilogo.png',
+            alt: 'Dineria',
+            class: 'w-75 my-3',
+          },
+          action: 'stori',
+          amounts: [
+            'Tarjeta de Crédito <span class="font-weight-bold text-success">100% autorizada</span>',
+          ],
+          deliveryTerms: [
+            '<span class="font-weight-bold">Credito hasta $10,000</span>',
+          ],
+          paymentDeadlines: ['Sin Anualidad de por vida'],
+          benefits: ['Entrega a Domicilio gratuita'],
+        },
+         class: 'd-flex align-items-center',
           img: {
             src: '/logos/prestamourgente.png',
             alt: 'Prestamo Urgente',
@@ -74,30 +92,13 @@ export default {
           },
           action: 'urgente',
           amounts: [
-            'hasta <span class="font-weight-bold text-success">$10,000</span>',
+            'Obtén hasta <span class="font-weight-bold text-success">$10,000</span>',
           ],
           deliveryTerms: [
-            '<span class="font-weight-bold">Menos de 2 horas</span>',
+            '<span class="font-weight-bold">Recíbelo en menos de 2 horas</span>',
           ],
-          paymentDeadlines: ['2 años o más'],
-          benefits: ['Obtenlo hoy mismo con tu CLABE y CURP'],
-        },
-        {
-          class: 'd-flex align-items-center',
-          img: {
-            src: '/logos/logo-dineria.png',
-            alt: 'Dineria',
-            class: 'w-75 my-3',
-          },
-          action: 'dineria',
-          amounts: [
-            'hasta <span class="font-weight-bold text-success">$30,000</span>',
-          ],
-          deliveryTerms: [
-            '<span class="font-weight-bold">Menos de 24 horas</span>',
-          ],
-          paymentDeadlines: ['30 días'],
-          benefits: ['Solicitalo hoy mismo con tu RFC'],
+          paymentDeadlines: ['Págalo en 2 años o más'],
+          benefits: ['Obtenlo hoy mismo con tu CURP  y CLABE'],
         },
         {
           class: 'd-flex align-items-center',

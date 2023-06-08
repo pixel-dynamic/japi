@@ -165,7 +165,7 @@ export default {
           break
         case 'creditea':
           window.open(
-            'https://creditea.mx?utm_source=PixelDynamicSMS&utm_medium=affiliate&utm_campaign=cpl__21&utm_content=mx_es___broad',
+            'https://prestamagi.co/stori',
             '_blank'
           )
           break
