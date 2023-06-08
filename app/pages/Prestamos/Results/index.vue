@@ -70,7 +70,7 @@ export default {
         {
           class: 'd-flex align-items-center',
           img: {
-            src: '/logos/storilogo.png',
+            src: '/logos/storilogo.jpg',
             alt: 'Dineria',
             class: 'w-75 my-3',
           },
