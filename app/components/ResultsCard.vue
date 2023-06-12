@@ -141,7 +141,7 @@ export default {
           break
         case 'creedy':
           window.open(
-            'https://tracking.adcredy.com/aff_c?offer_id=1160&aff_id=3880&aff_sub=%7bclickid%7d&aff_sub2=%7bAID%7d',
+            'https://tracking.adcredy.com/aff_c?offer_id=1160&aff_id=3880',
             '_blank'
           )
           break
