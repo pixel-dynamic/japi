@@ -65,41 +65,22 @@ export default {
         //   paymentDeadlines: ['Hasta 30 días'],
         //   benefits: ['Sin buró de crédito', 'Sin comisiones'],
         // },
-       
-         
         {
           class: 'd-flex align-items-center',
           img: {
-            src: '/logos/storilogo.jpg',
-            alt: 'Dineria',
-            class: 'w-75 my-3',
-          },
-          action: 'Dineria',
-          amounts: [
-            'Tarjeta de Crédito <span class="font-weight-bold text-success">100% autorizada</span>',
-          ],
-          deliveryTerms: [
-            '<span class="font-weight-bold">Credito hasta $10,000</span>',
-          ],
-          paymentDeadlines: ['Sin Anualidad de por vida'],
-          benefits: ['Entrega a Domicilio gratuita'],
-        },
-        {
-         class: 'd-flex align-items-center',
-          img: {
-            src: '/logos/prestamourgente.png',
-            alt: 'Prestamo Urgente',
+            src: '/logos/coppel.png',
+            alt: 'Coppel',
             class: 'w-75 my-3',
           },
           action: 'urgente',
           amounts: [
-            'Obtén hasta <span class="font-weight-bold text-success">$10,000</span>',
+            '<span>Tu tarjeta de Crédito Solicítala 100% en línea</span>',
           ],
           deliveryTerms: [
-            '<span class="font-weight-bold">Recíbelo en menos de 2 horas</span>',
+            '<span class="font-weight-bold">Sin Anualidad de por vida</span>',
           ],
-          paymentDeadlines: ['Págalo en 2 años o más'],
-          benefits: ['Obtenlo hoy mismo con tu CURP  y CLABE'],
+          paymentDeadlines: ['Solicítala en 10 Min.'],
+          benefits: ['No necesitas Historial de crédito.'],
         },
         {
           class: 'd-flex align-items-center',
@@ -118,6 +99,23 @@ export default {
           paymentDeadlines: ['12 meses'],
           benefits: ['Tu primer prestamo sin intereses'],
         },
+        {
+          class: 'd-flex align-items-center',
+          img: {
+            src: '/logos/storilogo.jpg',
+            alt: 'Dineria',
+            class: 'w-75 my-3',
+          },
+          action: 'Dineria',
+          amounts: [
+            'Tarjeta de Crédito <span class="font-weight-bold text-success">100% autorizada</span>',
+          ],
+          deliveryTerms: [
+            '<span class="font-weight-bold">Credito hasta $10,000</span>',
+          ],
+          paymentDeadlines: ['Sin Anualidad de por vida'],
+          benefits: ['Entrega a Domicilio gratuita'],
+        }
         // {
         //   class: 'd-flex align-items-center',
         //   img: {
