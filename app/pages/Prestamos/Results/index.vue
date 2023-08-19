@@ -72,7 +72,7 @@ export default {
             alt: 'Coppel',
             class: 'w-75 my-3',
           },
-          action: 'urgente',
+          action: 'coppel',
           amounts: [
             '<span>Tu tarjeta de Crédito Solicítala 100% en línea</span>',
           ],
