@@ -177,7 +177,7 @@ export default {
           break
         case 'coppel':
           window.open(
-            'https://afiliacion.net/?a=1988733&c=16125&s1=SN-SuperNova_MX-DS',
+            'https://afredmx.com/?a=1988733&c=16863&s1=SN-SuperNova_MX-PS2',
             '_blank'
           )
           break
