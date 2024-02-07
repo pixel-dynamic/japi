@@ -147,7 +147,7 @@ export default {
           break
         case 'kueski':
           window.open(
-            'https://kueski.com/prestamos-personales?utm_source=rdbcxx&utm_medium=p_sms&utm_campaign=comparador&utm_term=ppg&utm_content=nh',
+            'https://www.kueski.com/prestamos-personales?utm_source=rdbcxx&utm_medium=o_sms&utm_campaign=pixelalt&utm_term=cnn&utm_content=nh',
             '_blank'
           )
           break

@@ -49,22 +49,22 @@ export default {
       show: true,
       showLoan: false,
       results: [
-        // {
-        //   img: {
-        //     src: '/logos/kueski2.png',
-        //     alt: 'Kueski',
-        //   },
-        //   action: 'kueski',
-        //   amounts: [
-        //     'Hasta <span class="font-weight-bold text-success">$2,000</span>',
-        //     // 'Primer crédito: <span class="font-weight-bold">$2,000</span>',
-        //   ],
-        //   deliveryTerms: [
-        //     '<span class="font-weight-bold">Menos de 2 horas</span>',
-        //   ],
-        //   paymentDeadlines: ['Hasta 30 días'],
-        //   benefits: ['Sin buró de crédito', 'Sin comisiones'],
-        // },
+        {
+          img: {
+            src: '/logos/kueski2.png',
+            alt: 'Kueski',
+          },
+          action: 'kueski',
+          amounts: [
+            'Hasta <span class="font-weight-bold text-success">$20,000</span>',
+            // 'Primer crédito: <span class="font-weight-bold">$2,000</span>',
+          ],
+          deliveryTerms: [
+            '<span class="font-weight-bold">Inmediata</span>',
+          ],
+          paymentDeadlines: ['Obtenlo en minutos'],
+          benefits: ['No necesitas historial crediticio'],
+        },
         {
           class: 'd-flex align-items-center',
           img: {
