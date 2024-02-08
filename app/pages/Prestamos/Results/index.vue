@@ -65,23 +65,23 @@ export default {
           paymentDeadlines: ['Obtenlo en minutos'],
           benefits: ['No necesitas historial crediticio'],
         },
-        {
-          class: 'd-flex align-items-center',
-          img: {
-            src: '/logos/coppel.png',
-            alt: 'Coppel',
-            class: 'w-75 my-3',
-          },
-          action: 'coppel',
-          amounts: [
-            '<span>Tu tarjeta de Crédito Solicítala 100% en línea</span>',
-          ],
-          deliveryTerms: [
-            '<span class="font-weight-bold">Sin Anualidad de por vida</span>',
-          ],
-          paymentDeadlines: ['Solicítala en 10 Min.'],
-          benefits: ['No necesitas Historial de crédito.'],
-        },
+        // {
+        //   class: 'd-flex align-items-center',
+        //   img: {
+        //     src: '/logos/coppel.png',
+        //     alt: 'Coppel',
+        //     class: 'w-75 my-3',
+        //   },
+        //   action: 'coppel',
+        //   amounts: [
+        //     '<span>Tu tarjeta de Crédito Solicítala 100% en línea</span>',
+        //   ],
+        //   deliveryTerms: [
+        //     '<span class="font-weight-bold">Sin Anualidad de por vida</span>',
+        //   ],
+        //   paymentDeadlines: ['Solicítala en 10 Min.'],
+        //   benefits: ['No necesitas Historial de crédito.'],
+        // },
         // {
         //   class: 'd-flex align-items-center',
         //   img: {
