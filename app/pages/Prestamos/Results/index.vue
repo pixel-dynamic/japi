@@ -60,9 +60,10 @@ export default {
             // 'Primer crédito: <span class="font-weight-bold">$2,000</span>',
           ],
           deliveryTerms: [
-            '<span class="font-weight-bold">Obtenlo el mismo día.</span>',
+            '<span class="font-weight-bold">Respuesta en minutos.</span>',
+            '<span>Obtenlo el mismo día</span>',
           ],
-          paymentDeadlines: ['Obtenlo el mismo día.'],
+          paymentDeadlines: [''],
           benefits: ['Tu primer préstamo al 0% de interés.'],
         },
         // {
