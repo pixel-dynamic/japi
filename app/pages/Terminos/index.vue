@@ -57,7 +57,7 @@
             <p>Japiapp.com.mx hace uso de cookies. Las cookies son archivos que identifican en nuestro servidor a su ordenador. Las cookies por sí mismas no identifican al usuario individual, sino al ordenador utilizado. Usted puede evitar el uso de cookies mediante la configuración de su navegador web, pero esto puede dificultar algunas funcionalidades de la página.</p>
 
             <h2>Actualización y Preguntas</h2>
-            <p>Actualizado el 15/04/2021</p>
+            <p>Actualizado el 15/04/2024</p>
             <p>Puede dirigir cualquier pregunta relacionada con estos términos a: <a href="mailto:info@japiapp.com.mx">info@japiapp.com.mx</a></p>
             <p>Dirección: JAPI, Presidente Masaryk 61, Chapultepec V Sección, Polanco CDMX 11500</p>
 
