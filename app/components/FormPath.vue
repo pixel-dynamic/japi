@@ -55,57 +55,23 @@
         type="checkbox"
         name="cbx"
       />
-      <label class="cbx" for="cbx"
-        ><span>
-          <svg width="12px" height="9px" viewbox="0 0 12 9">
-            <polyline points="1 5 4 8 11 1"></polyline></svg></span
-        ><span
-          >Acepto los
-          <nuxt-link style="color: #e0a800" target="_blank" to="/terminos"
-            >términos y condiciones</nuxt-link
-          ></span
-        ></label
-      >
-    </b-form-group>
-    <b-form-group v-if="!born" class="relative">
-      <input
-        id="cbx2"
-        v-model="form.privacy"
-        class="inp-cbx"
-        type="checkbox"
-        name="cbx2"
-        required
-      />
-      <label class="cbx" for="cbx2"
-        ><span>
-          <svg width="12px" height="9px" viewbox="0 0 12 9">
-            <polyline points="1 5 4 8 11 1"></polyline></svg></span
-        ><span
-          >Acepto el
-          <nuxt-link style="color: #e0a800" target="_blank" to="/privacidad"
-            >aviso de privacidad</nuxt-link
-          ></span
-        ></label
-      >
-    </b-form-group>
-    <b-form-group v-if="!born" class="relative">
-      <input
-        id="cbx3"
-        v-model="form.check"
-        class="inp-cbx"
-        type="checkbox"
-        name="cbx3"
-      />
-      <label class="cbx" for="cbx3"
-        ><span>
-          <svg width="12px" height="9px" viewbox="0 0 12 9">
-            <polyline points="1 5 4 8 11 1"></polyline></svg></span
-        ><span>Acepto recibir ofertas por correo electrónico.</span></label
-      >
+      <label class="cbx" for="cbx">
+        <span>
+          <svg width="9px" height="9px" viewbox="0 0 12 9">
+            <polyline points="1 5 4 8 11 1"></polyline></svg></span><div class="d-inline pl-3">Acepto
+          <nuxt-link style="color: #e0a800" target="_blank" to="/privacidad">
+            el aviso de privacidad,
+          </nuxt-link>
+          <nuxt-link style="color: #1b68f8" target="_blank" to="/terminos">
+            términos y condiciones
+          </nuxt-link>
+          <div class="d-inline" style="color: black">y la suscripción y recepción de promociones de japi</div>
+      </div>
+      </label>
     </b-form-group>
     <b-row class="justify-content-center mt-5 mb-3">
       <b-col cols="auto">
-        <b-button type="submit" class="px-4" variant="warning"
+        <b-button type="submit" class="px-4" variant="warning" :disabled="!(form.email && form.phone)"
           >Continuar</b-button
         >
       </b-col>
@@ -129,9 +95,9 @@ export default {
         email: '',
         date: '',
         state: null,
-        terms: false,
-        privacy: false,
-        check: false,
+        terms: true,
+        privacy: true,
+        check: true,
       },
       options: states,
     }

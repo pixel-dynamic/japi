@@ -3,355 +3,65 @@
     <b-container>
       <b-row>
         <b-col>
-          <h1 class="mt-5 text-primary h2">Términos y condiciones.</h1>
+          <h1 class="mt-5 h2 text-white">Términos y condiciones.</h1>
           <b-card class="px-3 px-md-5 py-4 small">
-            <p class="font-weight-bold">FECHA DE EMISIÓN: 04/2021</p>
-            <p>
-              Para el uso de japiapp.com.mx - mediante la navegación a través
-              de esta página web, usted acepta los términos y condiciones
-              generales (los "Términos y Condiciones Generales") aplicables al
-              uso de nuestra página web. Nos reservamos el derecho, a nuestra
-              sola discreción, de cambiar, modificar o alterar de cualquier modo
-              los términos y condiciones y la política de privacidad que
-              aparecen en esta página en cualquier momento, por cualquier razón.
-              Cualquier cambio, modificación o alteración se hará mediante aviso
-              en la página, pero no se le avisará a usted directamente. El
-              usuario debe leer, entender y aceptar todas las condiciones
-              establecidas en los Términos y Condiciones Generales y en el Aviso
-              de Privacidad, así como cualquier otro documento, previo a su
-              inscripción como usuario de japiapp.com.mx
-            </p>
-            <p>Nuestros Servicios</p>
-            <p>
-              Japiapp.com.mx no es un prestamista, es un servicio gratuito que
-              empareja a los consumidores con los potenciales prestamistas
-              participantes en nuestra red directa de japiapp.com.mx
-              ("prestamistas participantes"). Para utilizar este servicio, debe
-              completar una o más solicitudes en línea que le solicitarán
-              información específica sobre usted, incluyendo, aunque no está
-              limitado a, su nombre, dirección, número de teléfono, dirección de
-              correo electrónico, información de la cuenta bancaria e
-              información de empleo. La recopilación y uso de esta información
-              está sujeto a la política de privacidad de esta página. Para poder
-              utilizar esta página web o el servicio, debe aceptar los
-              diferentes términos y condiciones establecidos en la política de
-              privacidad que se incorporan aquí por referencia.
-            </p>
-            <p>
-              Japiapp.com.mx proporciona una conexión entre las personas que
-              buscan préstamos de pago a corto plazo y los distintos proveedores
-              en línea que ofrecen estos préstamos a corto plazo. Los préstamos
-              de pago a corto plazo están diseñados con el propósito de
-              proporcionar financiamiento para resolver problemas de liquidez a
-              corto plazo y no deben considerarse como una solución a largo
-              plazo.
-            </p>
 
-            <p>
-              Una vez el consumidor envíe el formulario (s) de solicitud a
-              japiapp.com.mx, japiapp.com.mx enviará su información a uno o
-              varios prestamistas participantes . Al enviar el formulario (s) de
-              solicitud, usted entiende y acepta que está enviando una consulta
-              sobre un producto de préstamo a japiapp.com.mx y a cada uno de
-              los prestamistas participantes a quienes japiapp.com.mx
-              transmite su solicitud de préstamo. Al enviar el formulario ( s )
-              de solicitud, está enviando una invitación expresa a
-              japiapp.com.mxy a cada uno de los prestamistas participantes
-              que compartirán su información con usted por cualquier medio
-              (incluyendo correo electrónico, teléfono y correo directo) para
-              que le puedan ayudar con su transacción o proporcionar información
-              acerca de ofertas adicionales en las que pueda estar interesado.
-              Si no desea recibir mensajes de correo electrónico puede solicitar
-              ser eliminado de la lista de correo mediante el mecanismo de
-              opt-out que aparece en los mensajes de correo electrónico
-              recibidos. Para darse de baja de promociones enviadas por correo
-              electrónico desde japiapp.com.mx, envíe una solicitud a JAPI: Presidente Masaryk 61.
-Chapultepec V sección.
-Polanco CDMX 11500
-            </p>
+            <p><strong>Fecha de Emisión: 04/2024</strong></p>
 
-            <p>
-              Los prestamistas participantes que reciben información de su
-              solicitud revisan su información en tiempo real para determinar si
-              la información proporcionada, cumple con los criterios de
-              calificación crediticia. Los prestamistas participantes podrán,
-              entre otras cosas, verificar su identidad, realizar una
-              verificación de crédito y revisar su información en bases de datos
-              nacionales (como Experian, Llamada de crédito y otros) que rastrea
-              las transacciones de consumo con las instituciones de crédito. Al
-              enviar el formulario (s) de solicitud, usted está de acuerdo en
-              permitir que los prestamistas participantes revisen, verifiquen e
-              investiguen dicha información.
-            </p>
-            <p>
-              Si un prestamista participante determina que su solicitud cumple
-              con sus criterios de calificación de crédito, la página web
-              japiapp.com.mx abrirá una nueva página web que identifica el
-              nombre (s) y la información del prestamista (s) de contacto, o
-              redirigirá el navegador a la página web del prestamista. Usted
-              entiende y acepta que, una vez haya sido redirigido a la página
-              web de la entidad crediticia, japiapp.com.mx no tiene más
-              participación en la solicitud de préstamo o proceso de aprobación.
-              Sus interacciones subsecuentes con el prestamista están sujetas a
-              la política de privacidad, condiciones de uso, y otras políticas y
-              / o términos impuestos por ese prestamista.
-            </p>
-            <p>
-              Japiapp.com.mx no es un prestamista y no hace préstamos ni toma
-              decisiones de crédito en relación con su servicio de búsqueda de
-              préstamo. japiapp.com.mx no garantiza la aceptación en un
-              programa de préstamo en particular ni establece las condiciones de
-              los préstamos específicos con cualquier prestamista participante.
-              japiapp.com.mx tampoco garantiza que el precio, los productos,
-              disponibilidad, tarifas, tasas u otros términos de préstamos
-              ofrecidos y puestos a disposición por los prestamistas
-              participantes, sean las mejores condiciones disponibles en el
-              mercado.
-            </p>
-            <p>
-              Japiapp.com.mx no avala ni recomienda los productos de cualquier
-              prestamista particular. japiapp.com.mx es un agente suyo o de
-              cualquier prestamista participante. japiapp.com.mx no está
-              involucrado con el uso de la entidad crediticia y / o revisión de
-              la información de su solicitud para tomar una determinación acerca
-              de si usted cumple o no con los criterios de calificación del
-              préstamo, de un prestamista particular. El prestamista es el único
-              responsable de sus servicios hacia usted y usted acepta que
-              japiapp.com.mx no será responsable de los daños o gastos de
-              cualquier tipo que surjan relacionados de alguna manera mediante
-              su uso del servicio de búsqueda de préstamo. Entiende que los
-              prestamistas participantes podrán mantener la información de su
-              solicitud, tanto si está como si no está calificado para un
-              préstamo con ellos.
-            </p>
+            <h2>Uso de japiapp.com.mx</h2>
+            <p>Mediante la navegación a través de esta página web, usted acepta los términos y condiciones generales (los "Términos y Condiciones Generales") aplicables al uso de nuestra página web. Nos reservamos el derecho, a nuestra sola discreción, de cambiar, modificar o alterar de cualquier modo los términos y condiciones y la política de privacidad que aparecen en esta página en cualquier momento, por cualquier razón. Cualquier cambio, modificación o alteración se hará mediante aviso en la página, pero no se le avisará a usted directamente. El usuario debe leer, entender y aceptar todas las condiciones establecidas en los Términos y Condiciones Generales y en el Aviso de Privacidad, así como cualquier otro documento, previo a su inscripción como usuario de japiapp.com.mx.</p>
 
-            <p class="font-weight-bold">Derechos de Autor</p>
-            <p>
-              El contenido, organización, gráficos, diseño, compilación,
-              traducción magnética, conversión digital y otros asuntos
-              relacionados con la página están protegidos por derechos de autor,
-              marcas registradas y otros derechos de propiedad (incluyendo la
-              propiedad intelectual, aunque no es el único). La copia,
-              redistribución, uso o publicación por su parte de tales asuntos o
-              cualquier parte de la página web, excepto lo permitido por
-              "Derecho de uso limitado" a continuación, está estrictamente
-              prohibido. Usted no adquiere derechos de propiedad sobre cualquier
-              contenido, documento u otros materiales vistos a través de la
-              página. La publicación por japiapp.com.mx de información o
-              materiales en la página no constituye una renuncia a cualquier
-              derecho sobre dicha información y materiales.
-            </p>
+            <h2>Nuestros Servicios</h2>
+            <p>Japiapp.com.mx no es un prestamista; es un servicio gratuito que empareja a los consumidores con los potenciales prestamistas participantes en nuestra red directa ("prestamistas participantes"). Para utilizar este servicio, debe completar una o más solicitudes en línea que le solicitarán información específica sobre usted, incluyendo, aunque no limitado a, su nombre, dirección, número de teléfono, dirección de correo electrónico, información de la cuenta bancaria e información de empleo. La recopilación y uso de esta información está sujeta a la política de privacidad de esta página. Para poder utilizar esta página web o el servicio, debe aceptar los diferentes términos y condiciones establecidos en la política de privacidad que se incorporan aquí por referencia.</p>
 
-            <p class="font-weight-bold">
-              Derecho de autor y marca de servicio de información:
-            </p>
-            <p>
-              Derechos de autor © JAPI 2022, todos los derechos
-              reservados. 
-            </p>
+            <h2>Conexión con Proveedores</h2>
+            <p>Japiapp.com.mx proporciona una conexión entre las personas que buscan préstamos de pago a corto plazo y los distintos proveedores en línea que ofrecen estos préstamos. Los préstamos de pago a corto plazo están diseñados con el propósito de proporcionar financiamiento para resolver problemas de liquidez a corto plazo y no deben considerarse como una solución a largo plazo.</p>
 
-            <p class="font-weight-bold">Derecho de uso limitado:</p>
-            <p>
-              La visualización, impresión o descarga de cualquier contenido,
-              video, audio, gráfico, formulario o documento desde la página le
-              concede solamente una licencia no exclusiva y revocable para el
-              uso exclusivamente personal y no comercial, según sea necesario
-              para ver y escuchar el contenido y navegar a través de las páginas
-              y enlaces disponibles en general al público mediante un navegador
-              estándar de Internet y reproductor multimedia estándar, y no para
-              la re publicación, distribución, cesión, sub-licencia, venta,
-              preparación de trabajos derivados o cualquier otro uso. Ninguna
-              parte de cualquier contenido, gráfico, formulario o documento
-              puede ser reproducida en cualquier forma ni se puede incorporar en
-              cualquier sistema de recuperación de información, ya sea
-              electrónico o mecánico, que no sea para su uso personal y no
-              comercial (pero no para la reventa o redistribución).
-            </p>
+            <p>Una vez el consumidor envíe el formulario de solicitud a japiapp.com.mx, japiapp.com.mx enviará su información a uno o varios prestamistas participantes. Al enviar el formulario de solicitud, usted acepta que está enviando una consulta sobre un producto de préstamo a japiapp.com.mx y a cada uno de los prestamistas participantes a quienes japiapp.com.mx transmite su solicitud de préstamo.</p>
 
-            <p class="font-weight-bold">Edición, eliminación y modificación:</p>
-            <p>
-              Nos reservamos el derecho a nuestra discreción, de cambiar,
-              modificar o eliminar cualquier documento, información u otro
-              contenido que aparezca en la página.
-            </p>
-
-            <p class="font-weight-bold">Indemnización:</p>
-            <p>
-              Usted acepta eximir a japiapp.com.mx.com y sus respectivos
-              directores, funcionarios, accionistas, empleados, agentes,
-              abogados, anunciantes y editores (en conjunto, "Nuestras Partes
-              Afiliadas") de cualquier responsabilidad, pérdida, reclamación o
-              gastos, incluyendo los honorarios razonables de abogados,
-              relacionados con su uso de la página o violación de este Acuerdo
-            </p>
-
-            <p class="font-weight-bold">Derecho Intransferible:</p>
-            <p>
-              Su derecho a utilizar la página no es transferible. Cualquier
-              contraseña o derecho otorgado a usted para obtener información o
-              documentos desde la página no es transferible.
-            </p>
-
-            <p>RENUNCIA DE GARANTÍA Y LIMITACIÓN DE RESPONSABILIDAD:</p>
-            <p>
-              LOS PROGRAMAS INFORMÁTICOS, INFORMACIÓN Y DEMÁS CONTENIDOS
-              DISPONIBLES A TRAVÉS DE LA PÁGINA SE PROPORCIONAN "TAL CUAL",
-              "SEGÚN DISPONIBILIDAD", Y TODAS LAS GARANTÍAS, EXPRESAS O
-              IMPLÍCITAS, SON RECHAZADAS. EN LA MEDIDA DE LO PERMITIDO POR LA
-              LEY APLICABLE, japiapp.com.mx.com RECHAZA TODA GARANTÍA EXPRESA O
-              IMPLÍCITA, INCLUYENDO, PERO NO LIMITÁNDOSE A, (A) QUE NINGÚN
-              PROGRAMA INFORMÁTICO O LA INFORMACIÓN DISPONIBLE EN, O A TRAVÉS DE
-              ESTA PÁGINA, O LA PÁGINA MISMA SEA COMERCIAL O ADECUADO PARA UN
-              PROPÓSITO PARTICULAR, (B ) QUE LOS PROGRAMAS O INFORMACIÓN
-              DISPONIBLE EN, O A TRAVÉS DE ESTE SITIO, O EL SITIO MISMO SERÁ
-              ININTERRUMPIDO O SE VERÁ LIBRE DE ERRORES , (C) QUE LOS DEFECTOS
-              SERÁN CORREGIDOS, (D ) QUE NO EXISTEN VIRUS U OTROS COMPONENTES
-              NOCIVOS INFORMÁTICOS , ( E) QUE LOS MÉTODOS DE SEGURIDAD EMPLEADOS
-              SERÁN SUFICIENTES, (F) EN RELACIÓN CON CORRECCIÓN, PRECISIÓN O
-              CONFIABILIDAD O (G) PERJUICIO DEL USO Y DISFRUTE DE LOS PROGRAMAS
-              O DATOS INFORMÁTICOS, O CONTRA INFRACCIÓN. SE OFRECE TODA
-              INFORMACIÓN Y PROGRAMAS INFORMÁTICOS PRESTADOS EN EL CURSO DE ESTE
-              ACUERDO CON TODOS SUS DEFECTOS, Y EL RIESGO EN CUANTO A LA
-              CALIDAD, RENDIMIENTO, PRECISIÓN Y EL ESFUERZO DEL USUARIO.
-              NOSOTROS Y NUESTROS SOCIOS NO TENEMOS NINGUNA RESPONSABILIDAD
-              RESPECTO AL USO DE LA INFORMACIÓN O CUALQUIER OTRO CONTENIDO
-              DISPONIBLE DESDE LA PÁGINA, O EN LA PÁGINA EN SÍ. EN PARTICULAR,
-              AUNQUE NO COMO UNA LIMITACIÓN DEL MISMO, NOSOTROS Y NUESTROS
-              SOCIOS NO SOMOS RESPONSABLES POR DAÑOS Y PERJUICIOS, DAÑOS
-              INDIRECTOS, ESPECIALES O EMERGENTES (INCLUIDOS LOS DAÑOS POR
-              PÉRDIDA DE NEGOCIO, PÉRDIDA DE BENEFICIOS, LITIGIOS O SIMILARES),
-              YA SEA BASADO EN EL INCUMPLIMIENTO DEL CONTRATO, EL INCUMPLIMIENTO
-              DE LA GARANTÍA, AGRAVIO, RESPONSABILIDAD DEL PRODUCTO; NI POR
-              CUALQUIER RECLAMACIÓN DE TERCEROS DE CUALQUIER NATURALEZA, INCLUSO
-              SI SE HA ADVERTIDO DE LA POSIBILIDAD DE TALES DAÑOS O RECLAMOS. LA
-              NEGACIÓN DE DAÑOS ESTABLECIDA ARRIBA ES UN ELEMENTO FUNDAMENTAL DE
-              LA BASE DE LA NEGOCIACIÓN ENTRE MÉXICO Y USTED. LA INFORMACIÓN Y
-              OTRO CONTENIDO ESTÁ DISPONIBLE EN, O A TRAVÉS DE ESTA PÁGINA, Y LA
-              PÁGINA EN SÍ, QUE NO SE OFRECERÍA SIN TALES LIMITACIONES. NINGÚN
-              CONSEJO O INFORMACIÓN, YA SEA ORAL O ESCRITA, QUE OBTENGA DE
-              MÉXICO A TRAVÉS DE LA PÁGINA CREARÁ NINGUNA GARANTÍA,
-              REPRESENTACIÓN O GARANTÍA QUE ESTÉ ESTIPULADA EXPRESAMENTE EN ESTE
-              ACUERDO.
-            </p>
-            <p>Los enlaces a otras páginas web:</p>
-            <p>
-              La página puede ahora, o en el futuro, contener enlaces a páginas
-              web de terceros. Nosotros no controlamos, investigamos,
-              supervisamos o comprobamos dichas páginas web, no nos hacemos
-              responsables de los programas de ordenador disponibles, contenido
-              u opiniones expresadas en dichas páginas web, y no las
-              investigamos, supervisamos o comprobamos. Proporcionamos dichos
-              enlaces de terceros únicamente para comodidad de los visitantes de
-              la página, y la inclusión de un enlace no implica la aprobación o
-              la des-aprobación de la página vinculada por nosotros. Si usted
-              decide abandonar la página y acceder a cualquier página web de
-              terceros, lo hace bajo su propio riesgo.
-            </p>
-            <p>Información y Comunicados de prensa:</p>
-            <p>
-              La página puede contener entrevistas, debates, comunicados de
-              prensa y otra información (colectivamente, "Información") acerca
-              de nosotros, nuestra empresa y nuestros servicios, incluyendo
-              enlaces a páginas web de terceros que contengan dicha información,
-              que se esté proporcionando a conveniencia de los visitantes de la
-              página. A pesar de que toda la información preparada por
-              japiapp.com.mx.com se cree exacta a partir de la fecha de
-              preparación, negamos cualquier derecho u obligación de actualizar
-              cualquier información. No se debe confiar en que declaraciones
-              referentes a empresas distintas de japiapp.com.mx.com que estén
-              contenidas en dicha información fueran facilitadas o endosadas por
-              nosotros. Las opiniones expresadas en cualquier información,
-              incluyendo los empleados y agentes de japiapp.com.mx.com, son
-              exclusivamente las del autor y no reflejan necesariamente el
-              parecer de japiapp.com.mx.com. Con respecto a la información que
-              figura en los enlaces a páginas web de terceros, por favor
-              consulte la sección "Enlaces a otras páginas web" arriba.
-            </p>
-            <p>Comunicaciones de Visitantes:</p>
-            <p>
-              Salvo disposición expresa en contra nuestra, todos los
-              comentarios, retroalimentación, información o materiales que usted
-              envíe a través o en asociación con la página se considerará no
-              confidencial. Al enviarnos dichos comentarios, opiniones,
-              información o material:
-            </p>
+            <h2>Política Anti-Spam</h2>
+            <p>Como parte de nuestro servicio, recibirás correos electrónicos con ofertas que contemplan pero no se limitan a servicios como:</p>
             <ul>
-              <li>
-                i. Usted manifiesta y garantiza que el uso de japiapp.com.mx.com
-                es bajo su responsabilidad y no contraviene ningún acuerdo, no
-                viola ninguna ley, o infringe los derechos de algún tercero
-              </li>
-              <li>
-                ii. Usted manifiesta y garantiza que tiene todos los derechos
-                para aceptar este acuerdo
-              </li>
-              <li>
-                iii. Usted acepta que japiapp.com.mx.com es libre de utilizar de
-                cualquier forma la totalidad o parte de los contenidos de
-                cualquier comunicación sin restricciones y sin la obligación de
-                notificárselo, identificar o compensárselo de cualquier otra
-                forma;
-              </li>
-              <li>
-                iv. Usted concede a japiapp.com.mx.com todos los derechos
-                necesarios, incluyendo la renuncia a toda la privacidad y los
-                derechos morales, a utilizar todos los comentarios,
-                retroalimentación, información o material, en su totalidad o en
-                parte, o como una obra derivada, sin ninguna obligación por
-                parte japiapp.com.mx.com a cualquiera que sea. No aceptamos ideas
-                no solicitadas, obras u otros materiales y usted reconoce que
-                usted es responsable de asumir todos los riesgos relativos a la
-                utilización o distribución de dichas ideas, obras o materiales.
-              </li>
-              <li>
-                iv. japiapp.com.mx.com prohíbe expresamente la localización de las
-                direcciones de correo electrónico desde cualquier página web
-                (incluyendo todas las áreas de esta página - miembros y no
-                miembros) y opta expresamente por no recibir mensajes de correo
-                electrónico comerciales dirigidos a direcciones de correo
-                electrónico de japiapp.com.mx.com con dominio en México que se
-                hayan obtenido en violación de lo anterior, o mediante el uso de
-                software automático de generación de direcciones.
-              </li>
+              <li>Amex Personas Morales - Banco</li>
+              <li>Alvos - Préstamo</li>
+              <li>BBVA Doublepay - Banco</li>
+              <li>Credy - Préstamo</li>
+              <li>Fidea - Préstamo</li>
+              <li>Fiesta Crédito - Préstamo</li>
+              <li>HSBC - Banco</li>
+              <li>Kubo - Préstamo</li>
+              <li>Moneyman - Préstamo</li>
+              <li>Montepío Luz Saviñón - Empeño</li>
+              <li>Nacional Monte De Piedad - Empeño</li>
+              <li>Resuelve - Préstamo</li>
+              <li>Santander - Banco</li>
+              <li>Solcredito - Préstamo</li>
+              <li>Utel - Educación</li>
+              <li>Vivus - Préstamo</li>
+              <li>Yo Te Presto - Préstamo</li>
             </ul>
-            <p>Cookies:</p>
-            <p>
-              Japiapp.com.mx.com hace uso de cookies. Las cookies son archivos que
-              identifican en nuestro servidor a su ordenador. Las cookies por sí
-              mismas no identifican al usuario individual, sino al ordenador
-              utilizado. Muchas páginas hacen esto cada vez que un usuario
-              visita su página con el fin de realizar un seguimiento de los
-              flujos de tráfico. Los cookies propios sólo registran aquellas
-              áreas de la página que hayan sido visitadas por el equipo y
-              durante cierto tiempo. Usted puede evitar el uso de cookies
-              mediante la configuración de su navegador web, pero tenga en
-              cuenta que esto puede dificultar algunas de las funcionalidades de
-              la página web.
-            </p>
-            <p class="font-weight-bold">
-              Datos, Terceros y cumplimiento de la Ley de Protección de Datos
-              Personales en Posesión de Terceros:
-            </p>
-            <p>
-              Toda la información presentada en esta página se lleva a cabo de
-              manera segura y transfiere a las partes interesadas a través de un
-              servidor seguro, de conformidad con la Ley de Protección de Datos
-              de 1998. Si pasamos su información a terceros nos aseguramos de
-              que su información personal será tratada con la misma seguridad y
-              confidencialidad
-            </p>
-            <p class="mt-4 text-right">Actualizado 15/04/2021</p>
 
-            <p class="font-weight-bold">Preguntas:</p>
-            <p>
-              Puede dirigir cualquier pregunta relacionada con estos términos a:
-              <a href="mailto:info@japiapp.com.mx.com">info@japiapp.com.mx.com</a>
-            </p>
-            <p>
-              JAPI: Presidente Masaryk 61.
-Chapultepec V sección.
-Polanco CDMX 11500
-            </p>
+            <h2>Derechos de Autor</h2>
+            <p>El contenido, organización, gráficos, diseño, compilación, traducción magnética, conversión digital y otros asuntos relacionados con la página están protegidos por derechos de autor, marcas registradas y otros derechos de propiedad (incluyendo la propiedad intelectual). La copia, redistribución, uso o publicación por su parte de tales asuntos o cualquier parte de la página web, excepto lo permitido por el "Derecho de uso limitado" a continuación, está estrictamente prohibido. Usted no adquiere derechos de propiedad sobre cualquier contenido, documento u otros materiales vistos a través de la página.</p>
+
+            <h2>Edición, Eliminación y Modificación</h2>
+            <p>Nos reservamos el derecho, a nuestra discreción, de cambiar, modificar o eliminar cualquier documento, información u otro contenido que aparezca en la página.</p>
+
+            <h2>Indemnización</h2>
+            <p>Usted acepta eximir a japiapp.com.mx y sus respectivos directores, funcionarios, empleados y agentes de cualquier responsabilidad, pérdida, reclamación o gastos, incluyendo los honorarios razonables de abogados, relacionados con su uso de la página o violación de este Acuerdo.</p>
+
+            <h2>Renuncia de Garantía y Limitación de Responsabilidad</h2>
+            <p>Los programas informáticos, información y demás contenidos disponibles a través de la página se proporcionan "tal cual" y "según disponibilidad". En la medida permitida por la ley aplicable, japiapp.com.mx rechaza toda garantía expresa o implícita. No garantizamos que los programas o información disponibles en o a través de este sitio, o el sitio mismo, estén libres de errores, virus, o que el servicio sea ininterrumpido.</p>
+
+            <h2>Cookies</h2>
+            <p>Japiapp.com.mx hace uso de cookies. Las cookies son archivos que identifican en nuestro servidor a su ordenador. Las cookies por sí mismas no identifican al usuario individual, sino al ordenador utilizado. Usted puede evitar el uso de cookies mediante la configuración de su navegador web, pero esto puede dificultar algunas funcionalidades de la página.</p>
+
+            <h2>Actualización y Preguntas</h2>
+            <p>Actualizado el 15/04/2021</p>
+            <p>Puede dirigir cualquier pregunta relacionada con estos términos a: <a href="mailto:info@japiapp.com.mx">info@japiapp.com.mx</a></p>
+            <p>Dirección: JAPI, Presidente Masaryk 61, Chapultepec V Sección, Polanco CDMX 11500</p>
+
+
             <p class="text-center mt-5">
               <b-button
                 class="px-3 px-md-5"
