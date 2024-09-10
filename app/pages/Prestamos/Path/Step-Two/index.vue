@@ -155,6 +155,7 @@
 </template>
 
 <script>
+import Swal from "sweetalert2";
 export default {
   data() {
     return {
@@ -174,6 +175,16 @@ export default {
   created() {
     this.selected = this.getMonth ? this.getMonth : null
     this.income = this.getIncome ? this.getIncome : null
+  },
+  mounted() {
+    // this.$swal({
+    //   title: "Información",
+    //   text: "Para completar el proceso de suscripción acabamos de enviarle un mensaje a su dirección de correo electrónico.",
+    //   icon: "info",
+    //   position: "top-end",
+    //   background: "#b8ef98",
+    //   showConfirmButton: false,
+    // });
   },
   methods: {
     saveMonth() {

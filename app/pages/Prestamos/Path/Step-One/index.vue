@@ -45,28 +45,8 @@ export default {
   methods: {
     sendUser(client) {
       this.$store.commit('setNewUser', client)
-
-      // console.log('user', client)
-      // const params = {
-      //   loan: this.getLoan,
-      //   score: this.getScore,
-      //   work_status: this.getJob,
-      //   income: this.getSalary,
-      //   user: client,
-      // }
-
+      // this.sendElementToList()
       this.$router.push('/prestamos/path/step-two')
-
-      // this.$axios
-      //   .post('https://prestamagico.pixelapis.com/api/loans/', params)
-      //   .then((response) => {
-      //     console.log(response.data.message)
-      //     this.$router.push('/prestamos/results')
-      //   })
-      //   .catch((error) => {
-      //     console.log(error)
-      //     this.$router.push('/prestamos/results')
-      //   })
     },
   },
 }
