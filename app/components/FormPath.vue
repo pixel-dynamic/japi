@@ -104,25 +104,17 @@ export default {
   },
   methods: {
     sendElementToList() {
-      const API_KEY = '51bf211e-d68e-4a2c-af8e-d29d12173c3d'; // Reemplaza con tu clave API
-      const LIST_ID = '84e54bf2-6f1a-11ef-8864-1fff41337fd8'; // Reemplaza con el ID de tu lista
       this.$axios
-        .post("https://emailoctopus.com/api/1.6/lists/"+LIST_ID+"/contacts", {
-          api_key: API_KEY,
-          email_address: this.form.email,
-          fields: {
-            phone: this.form.phone,
-          },
-          tags: {
-            date: this.form.date
-          },
-          status: 'PENDING'
+        .post('/api/element', {
+          email: this.form.email,
+          phone: this.form.phone,
+          date: this.form.date,
         })
         .then((response) => {
-          console.log(response);
+          console.log(response.data);
         })
         .catch((error) => {
-          console.log(error);
+          console.log(error.response);
         });
     },
     onSubmit() {
@@ -134,11 +126,11 @@ export default {
             'warning'
           )
         } else {
-          // this.sendElementToList()
+          this.sendElementToList()
           this.$emit('update', this.form)
         }
       } else {
-        // this.sendElementToList()
+        this.sendElementToList()
         this.$emit('update', this.form)
       }
     },

@@ -1,3 +1,5 @@
+import bodyParser from 'body-parser';
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -70,6 +72,11 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['@/assets/css/main.css'],
+
+  serverMiddleware: [
+    { path: '/api/element', handler: bodyParser.json() },
+    { path: '/api/element', handler: '~/api/element.js' }
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [

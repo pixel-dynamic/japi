@@ -177,14 +177,14 @@ export default {
     this.income = this.getIncome ? this.getIncome : null
   },
   mounted() {
-    // this.$swal({
-    //   title: "Información",
-    //   text: "Para completar el proceso de suscripción acabamos de enviarle un mensaje a su dirección de correo electrónico.",
-    //   icon: "info",
-    //   position: "top-end",
-    //   background: "#b8ef98",
-    //   showConfirmButton: false,
-    // });
+    this.$swal({
+      title: "Información",
+      text: "Para completar el proceso de suscripción acabamos de enviarle un mensaje a su dirección de correo electrónico.",
+      icon: "info",
+      position: "top-end",
+      background: "#b8ef98",
+      showConfirmButton: false,
+    });
   },
   methods: {
     saveMonth() {
