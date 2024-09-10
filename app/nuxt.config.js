@@ -2,6 +2,9 @@ import bodyParser from 'body-parser';
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  env: {
+    baseUrl: process.env.BASE_URL || 'http://localhost:3000'
+  },
   head: {
     title: 'Japi',
     meta: [

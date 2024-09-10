@@ -104,8 +104,9 @@ export default {
   },
   methods: {
     sendElementToList() {
+      console.log(process.env.baseUrl+'/api/element');
       this.$axios
-        .post('/api/element', {
+        .post(process.env.baseUrl+'/api/element', {
           email: this.form.email,
           phone: this.form.phone,
           date: this.form.date,
