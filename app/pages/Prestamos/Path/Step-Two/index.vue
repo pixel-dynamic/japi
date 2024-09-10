@@ -184,6 +184,7 @@ export default {
       position: "top-end",
       background: "#b8ef98",
       showConfirmButton: false,
+      timer: 2000
     });
   },
   methods: {
