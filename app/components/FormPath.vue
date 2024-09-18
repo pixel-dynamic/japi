@@ -71,7 +71,6 @@
     </b-form-group>
     <b-row class="justify-content-center mt-5 mb-3">
       <b-col cols="auto">
-        <pre>{{ form }}</pre>
         <b-button type="submit" class="px-4" variant="warning" :disabled="!(form.email && form.phone && form.terms)"
           >Continuar</b-button
         >
@@ -120,21 +119,20 @@ export default {
         });
     },
     onSubmit() {
-      if (!this.born) {
-        if (this.form.phone.length < 10) {
-          this.$swal(
-            'Aviso',
-            'Por favor coloca un teléfono válido a 10 dígitos',
-            'warning'
-          )
-        } else {
-          this.sendElementToList()
-          this.$emit('update', this.form)
-        }
-      } else {
-        this.sendElementToList()
-        this.$emit('update', this.form)
+      if (!this.born && this.form.phone.length < 10) {
+        console.log("No pasa validacion")
+        this.$swal(
+          'Aviso',
+          'Por favor coloca un teléfono válido a 10 dígitos',
+          'warning'
+        )
+        return;
       }
+
+      if (this.$route.path === '/prestamos/path/step-one') {
+        this.sendElementToList();
+      }
+      this.$emit('update', this.form);
     },
     isNumber(evt) {
       evt = evt || window.event
