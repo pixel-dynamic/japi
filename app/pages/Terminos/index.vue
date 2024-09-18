@@ -3,10 +3,10 @@
     <b-container>
       <b-row>
         <b-col>
-          <h1 class="mt-5 h2 text-white">Términos y condiciones.</h1>
+          <h1 class="mt-5 h5 text-white">Términos y condiciones.</h1>
           <b-card class="px-3 px-md-5 py-4 small">
 
-            <h2>Fecha de Emisión: 04/2024</h2>
+            <h5>Fecha de Emisión: 04/2024</h5>
             <p>Para el uso de japiapp.com.mx - mediante la navegación a través de esta página web,
               usted acepta los términos y condiciones generales (los "Términos y Condiciones Generales")
               aplicables al uso de nuestra página web. Nos reservamos el derecho, a nuestra sola
@@ -18,7 +18,7 @@
               Privacidad, así como cualquier otro documento, previo a su inscripción como usuario de
               japiapp.com.mx</p>
 
-            <h2>Nuestros Servicios</h2>
+            <h5>Nuestros Servicios</h5>
             <p>Japiapp.com.mx no es un prestamista, es un servicio gratuito que empareja a los
               consumidores con los potenciales prestamistas participantes en nuestra red directa de
               japiapp.com.mx ("prestamistas participantes"). Para utilizar este servicio, debe completar
@@ -91,7 +91,7 @@
               prestamistas participantes podrán mantener la información de su solicitud, tanto si está
               como si no está calificado para un préstamo con ellos.</p>
 
-            <h2>Política Anti-Spam</h2>
+            <h5>Política Anti-Spam</h5>
 
             <p>Cómo parte de nuestro servicio, recibirás correos electrónicos con ofertas que contemplan pero no se limitan a servicios como:</p>
             <ul>
@@ -114,14 +114,14 @@
               <li>Yo Te Presto - Préstamo</li>
             </ul>
 
-            <h2>Prohibición de Comunicaciones No Solicitadas</h2>
+            <h5>Prohibición de Comunicaciones No Solicitadas</h5>
             <p>En JapiApp (japiapp.com.mx), prohibimos estrictamente el uso de nuestros servicios para el
               envío de correos electrónicos, mensajes u otras formas de comunicación no solicitadas
               ("spam") a individuos que no hayan optado por recibir dichas comunicaciones. Los usuarios
               deben asegurarse de que todos los destinatarios de las comunicaciones enviadas a través
               de nuestra plataforma hayan proporcionado su consentimiento explícito para recibirlas.</p>
 
-            <h2>Cumplimiento de Leyes Anti-Spam</h2>
+            <h5>Cumplimiento de Leyes Anti-Spam</h5>
             <p>Los usuarios de nuestros servicios deben cumplir con todas las leyes y regulaciones
               anti-spam aplicables, incluyendo, pero no limitándose a, la Ley CAN-SPAM, el Reglamento
               General de Protección de Datos (GDPR) y cualquier otra ley local o internacional que regule
@@ -129,7 +129,7 @@
               información precisa del remitente, incluir un mecanismo de cancelación de suscripción fácil
               de usar y evitar líneas de asunto o contenido engañoso..</p>
 
-            <h2>Mecanismos de Cancelación de Suscripción</h2>
+            <h5>Mecanismos de Cancelación de Suscripción</h5>
             <p>Cualquier correo electrónico o mensaje enviado a través de nuestros servicios debe incluir
               un mecanismo claro y fácil de usar para que los destinatarios puedan optar por no recibir
               futuras comunicaciones.</p>
@@ -142,7 +142,7 @@
               manera oportuna y abstenerse de enviar más comunicaciones a individuos que se hayan
               dado de baja o hayan optado por no recibirlas.</p>
 
-            <h2>Consecuencias por Violación</h2>
+            <h5>Consecuencias por Violación</h5>
             <p>Cualquier violación de esta Política Anti-Spam puede resultar en la suspensión o
               terminación inmediata de la cuenta del usuario, sin previo aviso, y también podría llevar a
               acciones legales adicionales. Nos reservamos el derecho de tomar las medidas apropiadas
@@ -150,12 +150,12 @@
               del usuario, reportar violaciones a las autoridades competentes y buscar soluciones
               legales.</p>
 
-            <h2>Reporte de Spam</h2>
+            <h5>Reporte de Spam</h5>
             <p>Si crees que has recibido spam de un usuario de JapiApp, por favor contáctanos de
               inmediato en info@japiapp.com.mx para que podamos investigar y tomar las
               medidas apropiadas.</p>
 
-            <h2>Derechos de Autor</h2>
+            <h5>Derechos de Autor</h5>
             <p>El contenido, organización, gráficos, diseño, compilación, traducción magnética, conversión
               digital y otros asuntos relacionados con la página están protegidos por derechos de autor,
               marcas registradas y otros derechos de propiedad (incluyendo la propiedad intelectual,
@@ -166,10 +166,10 @@
               página. La publicación por japiapp.com.mx de información o materiales en la página no
               constituye una renuncia a cualquier derecho sobre dicha información y materiales.</p>
 
-            <h2>Derecho de autor y marca de servicio de información:</h2>
+            <h5>Derecho de autor y marca de servicio de información:</h5>
             <p>Derechos de autor © JAPI 2022, todos los derechos reservados.</p>
 
-            <h2>Derecho de uso limitado:</h2>
+            <h5>Derecho de uso limitado:</h5>
             <p>La visualización, impresión o descarga de cualquier contenido, video, audio, gráfico,
               formulario o documento desde la página le concede solamente una licencia no exclusiva y
               revocable para el uso exclusivamente personal y no comercial, según sea necesario para
@@ -181,18 +181,18 @@
               en cualquier sistema de recuperación de información, ya sea electrónico o mecánico, que
               no sea para su uso personal y no comercial (pero no para la reventa o redistribución).</p>
 
-            <h2>Edición, eliminación y modificación:</h2>
+            <h5>Edición, eliminación y modificación:</h5>
             <p>Nos reservamos el derecho a nuestra discreción, de cambiar, modificar o eliminar cualquier
               documento, información u otro contenido que aparezca en la página.</p>
 
-            <h2>Indemnización:</h2>
+            <h5>Indemnización:</h5>
             <p>Usted acepta eximir a japiapp.com.mx.com y sus respectivos directores, funcionarios,
               accionistas, empleados, agentes, abogados, anunciantes y editores (en conjunto, "Nuestras
               Partes Afiliadas") de cualquier responsabilidad, pérdida, reclamación o gastos, incluyendo
               los honorarios razonables de abogados, relacionados con su uso de la página o violación de
               este Acuerdo</p>
 
-            <h2>Derecho Intransferible:</h2>
+            <h5>Derecho Intransferible:</h5>
             <p>Su derecho a utilizar la página no es transferible. Cualquier contraseña o derecho otorgado
               a usted para obtener información o documentos desde la página no es transferible.</p>
             <p>RENUNCIA DE GARANTÍA Y LIMITACIÓN DE RESPONSABILIDAD:</p>
@@ -289,7 +289,7 @@
                 lo anterior, o mediante el uso de software automático de generación de direcciones.</li>
             </ul>
 
-            <h2>Cookies:</h2>
+            <h5>Cookies:</h5>
             <p>Japiapp.com.mx.com hace uso de cookies. Las cookies son archivos que identifican en
               nuestro servidor a su ordenador. Las cookies por sí mismas no identifican al usuario
               individual, sino al ordenador utilizado. Muchas páginas hacen esto cada vez que un usuario
@@ -299,18 +299,18 @@
               su navegador web, pero tenga en cuenta que esto puede dificultar algunas de las
               funcionalidades de la página web.</p>
 
-            <h2>Datos, Terceros y cumplimiento de la Ley de Protección de Datos Personales en
-              Posesión de Terceros:</h2>
+            <h5>Datos, Terceros y cumplimiento de la Ley de Protección de Datos Personales en
+              Posesión de Terceros:</h5>
             <p>Toda la información presentada en esta página se lleva a cabo de manera segura y se
               transfiere a las partes interesadas a través de un servidor seguro, de conformidad con la
               Ley de Protección de Datos de 1998. Si pasamos su información a terceros nos aseguramos
               de que su información personal será tratada con la misma seguridad y confidencialidad</p>
 
-            <h2>Preguntas</h2>
+            <h5>Preguntas</h5>
             <p>Puede dirigir cualquier pregunta relacionada con estos términos a: info@japiapp.com.mx</p>
 
             <address>
-              JAPI: Presidente Masaryk 61. Chapultepec V sección. Polanco CDMX 11500
+              JAPI: Presidente Masaryk 61. Chapultepec V sección. Polanco CDMX 15000
             </address>
 
 
@@ -319,7 +319,7 @@
                 class="px-3 px-md-5"
                 variant="warning"
                 pill
-                to="/deudas/bank"
+                to="/"
                 >Quiero probar el servicio</b-button
               >
             </p>

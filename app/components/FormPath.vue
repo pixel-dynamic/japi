@@ -72,7 +72,7 @@
     <b-row class="justify-content-center mt-5 mb-3">
       <b-col cols="auto">
         <b-button type="submit" class="px-4" variant="warning" :disabled="!(form.email && form.phone && form.terms)"
-          >Continuar</b-button
+        >{{ !(form.email && form.phone && form.terms) ? 'Acepta los términos para continuar' : 'Continuar' }}</b-button
         >
       </b-col>
     </b-row>
