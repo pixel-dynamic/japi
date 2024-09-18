@@ -71,6 +71,7 @@
     </b-form-group>
     <b-row class="justify-content-center mt-5 mb-3">
       <b-col cols="auto">
+        <pre>{{ form }}</pre>
         <b-button type="submit" class="px-4" variant="warning" :disabled="!(form.email && form.phone && form.terms)"
           >Continuar</b-button
         >
@@ -95,7 +96,7 @@ export default {
         email: '',
         date: '',
         state: null,
-        terms: true,
+        terms: false,
         privacy: true,
         check: true,
       },
@@ -149,6 +150,13 @@ export default {
       }
     },
   },
+  mounted() {
+    const my_state =  this.$store.state.newLoan
+    this.form.phone = my_state.user.phone
+    this.form.email = my_state.user.email
+    this.form.privacy = my_state.user.privacy
+    this.form.terms = my_state.user.terms
+  }
 }
 </script>
 <style scoped>
