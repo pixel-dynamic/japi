@@ -1,0 +1,16 @@
+### test load post data
+POST https://prestamagico.pixelapis.com/api/loans/
+Content-Type: application/json
+
+{
+  "loan": "1000",
+  "score": "0",
+  "work_status": "0",
+  "income": "0",
+  "user": {
+    "page": "http://www.example.com",
+    "name": "John Doe",
+    "email": "",
+    "phone": ""
+  }
+}
