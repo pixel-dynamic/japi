@@ -51,6 +51,7 @@ export default {
       })
     },
     solicitarPrestamo() {
+      this.$fb.track('Lead')
       if (this.result.redirect_link) {
         window.open(this.result.redirect_link, '_blank')
       } else {
