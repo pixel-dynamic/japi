@@ -22,8 +22,7 @@
           <div
             v-for="(result, index) in results"
             :key="`result-${index}`"
-            class="flex-grow-1 flex-shrink-1 mb-4 p-2"
-            style="max-width: 33%; flex-basis: 33%;"
+            class="flex-grow-1 flex-shrink-1 mb-4 p-2 custom--responsive-width"
           >
             <OffertComponent
               :ref="`offertComponent-${index}`"
@@ -64,5 +63,15 @@ export default {
 <style scoped>
 .bg-primary {
   background: linear-gradient(to bottom, #007bff, #0056b3);
+}
+.custom--responsive-width {
+  max-width: 33%;
+  flex-basis: 33%;
+}
+@media (max-width: 990px) {
+  .custom--responsive-width {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
 }
 </style>
