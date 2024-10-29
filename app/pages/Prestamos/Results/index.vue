@@ -1,43 +1,36 @@
 <template>
-  <div>
-    <section style="height: 80vh" v-if="$fetchState.pending">
-      <div class="text-center">
-        <h3 class="mb-4">Recibiendo ofertas...</h3>
-        <b-icon icon="filter-circle" font-scale="3" animation="throb"></b-icon>
-        <p class="font-weight-bold mt-3">Espera un momento...</p>
-      </div>
-    </section>
-    <section v-else class="d-flex align-items-center h100 py-5 py-md-5">
-      <b-container>
-        <b-row class="justify-content-center">
-          <b-col sm="10" md="12">
-            <h1 class="title mt-md-0 mb-4 blue-text">
-              {{ message }}
-            </h1>
-            <!-- <p>
-              ¡Tienes los requisitos para solicitar cualquiera de estas ofertas!
-            </p> -->
-            <p class="mb-5">
-              Te recomendamos aplicar en todas estas opciones para incrementar
-              tus posibilidades de aprobación
-            </p>
-          </b-col>
-        </b-row>
-        <b-row
-          class="text-body d-flex align-items-stretch justify-content-center"
-        >
+  <div class="min-vh-90">
+    <b-container fluid>
+      <b-row class="py-3 bg-primary">
+        <b-col class="text-center">
+          <img src="~/assets/img/logoblanco.png" alt="Japi Logo" height="40" />
+        </b-col>
+      </b-row>
+    </b-container>
+    <b-container class="py-5">
+      <section v-if="$fetchState.pending" class="text-center">
+        <h3 class="mb-4 text-blue">Recibiendo ofertas...</h3>
+        <b-icon icon="filter-circle" font-scale="3" animation="throb" variant="light"></b-icon>
+        <p class="font-weight-bold mt-3 text-white">Espera un momento...</p>
+      </section>
+      <section v-else>
+        <h1 class="text-center mb-4" style="color: #2c50c8">¡Felicidades!</h1>
+        <p class="text-center text-black mb-5">
+          Tienes los requisitos necesarios para solicitar un préstamo con cualquiera de las siguientes opciones:
+        </p>
+        <b-row>
           <b-col
             v-for="(result, index) in results"
             :key="`result-${index}`"
             sm="12"
-            md="12"
+            md="4"
             class="mb-4"
           >
             <OffertComponent :result="result"></OffertComponent>
           </b-col>
         </b-row>
-      </b-container>
-    </section>
+      </section>
+    </b-container>
   </div>
 </template>
 
@@ -46,19 +39,15 @@ export default {
   layout: 'landing',
   data() {
     return {
-      show: true,
-      showLoan: false,
       results: [],
     }
   },
   computed: {
     message() {
       const quantity = this.results.length
-      const message =
-        quantity > 1
-          ? `Hemos encontrado ${quantity} ofertas personalizada para ti.`
-          : `Hemos encontrado ${quantity} oferta personalizada para ti.`
-      return message
+      return quantity > 1
+        ? `Hemos encontrado ${quantity} ofertas personalizadas para ti.`
+        : `Hemos encontrado ${quantity} oferta personalizada para ti.`
     },
   },
   async fetch() {
@@ -67,3 +56,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.bg-primary {
+  background: linear-gradient(to bottom, #007bff, #0056b3);
+}
+</style>

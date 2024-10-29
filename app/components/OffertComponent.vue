@@ -1,36 +1,29 @@
 <template>
-  <div>
-    <div class="card">
-      <div class="card-body">
-        <div class="row align-items-center">
-          <div class="col-md-3">
-            <img :src="'/logos/'+result.image_path" :alt="result.company_name + ' Logo'" class="img-fluid mb-3 mb-md-0">
-          </div>
-          <div class="col-md-2">
-            <h6 class="text-muted mb-1">{{ result.amount_title }}:</h6>
-            <p class="mb-0">Hasta <span class="text-success fw-bold">${{ formatAmount(result.max_amount) }}</span></p>
-          </div>
-          <div class="col-md-3">
-            <h6 class="text-muted mb-1">{{ result.delivery_title }}:</h6>
-            <p class="mb-0 font-weight-bold">{{ result.response_time }}</p>
-            <p class="mb-0">{{ result.delivery_time }}</p>
-          </div>
-          <div class="col-md-2">
-            <h6 class="text-muted mb-1">{{ result.payment_term_title }}:</h6>
-            <p class="mb-0">{{ result.payment_term || '-' }}</p>
-          </div>
-          <div class="col-md-2">
-            <h6 class="text-muted mb-1">{{ result.benefits_title }}:</h6>
-            <p class="mb-0">{{ result.benefits }}</p>
-          </div>
-        </div>
-        <div class="row mt-3">
-          <div class="col-md-3">
-            <button class="btn btn-success w-100" @click="solicitarPrestamo">Solicitar</button>
-          </div>
-        </div>
-      </div>
+  <div class="loan-offer-card">
+    <div class="logo-box">
+      <img :src="'/logos/'+result.image_path" :alt="result.company_name + ' Logo'" class="loan-offer-logo">
     </div>
+    <ul class="loan-offer-features">
+      <li>
+        <span class="feature-check">✓</span>
+        {{ result.amount_title }}: Hasta ${{ formatAmount(result.max_amount) }}
+      </li>
+      <li>
+        <span class="feature-check">✓</span>
+        {{ result.delivery_title }}: {{ result.response_time }}
+      </li>
+      <li>
+        <span class="feature-check">✓</span>
+        {{ result.delivery_time }}
+      </li>
+      <li>
+        <span class="feature-check">✓</span>
+        {{ result.benefits }}
+      </li>
+    </ul>
+    <button class="loan-offer-button" @click="solicitarPrestamo">
+      Solicitalo aquí >
+    </button>
   </div>
 </template>
 
@@ -63,22 +56,66 @@ export default {
 </script>
 
 <style scoped>
-.card {
+.loan-offer-card {
+  background: linear-gradient(to bottom, #4a90e2, #2c50c8);
   border-radius: 10px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.btn-success {
-  background-color: #28a745;
-  border-color: #28a745;
+.loan-offer-logo {
+  max-width: 150px;
+  margin-bottom: 20px;
 }
 
-.btn-success:hover {
-  background-color: #218838;
-  border-color: #1e7e34;
+.loan-offer-features {
+  list-style-type: none;
+  padding: 15px 0;
+  margin: 0 0 20px 0;
+  width: 100%;
 }
 
-.text-success {
-  color: #28a745 !important;
+.loan-offer-features li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.feature-check {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.loan-offer-button {
+  background-color: white;
+  color: #3f51b5;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loan-offer-button:hover {
+  background-color: #f0f0f0;
+}
+
+.logo-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 50px 0;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.logo-box img{
+  margin: 0;
 }
 </style>
