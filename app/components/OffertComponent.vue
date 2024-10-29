@@ -115,6 +115,12 @@ export default {
   width: 100%;
 }
 
+@media(max-width: 990px) {
+  .logo-box{
+    padding: 20px 0;
+  }
+}
+
 .logo-box img{
   margin: 0;
 }

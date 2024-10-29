@@ -15,7 +15,7 @@
       </section>
       <section v-else>
         <h1 class="text-center mb-4" style="color: #2c50c8">¡Felicidades!</h1>
-        <p class="text-center text-black mb-5">
+        <p class="text-center text-black mb-3 mb-sm-5">
           Tienes los requisitos necesarios para solicitar un préstamo con cualquiera de las siguientes opciones:
         </p>
         <div class="d-flex flex-wrap justify-content-center">
