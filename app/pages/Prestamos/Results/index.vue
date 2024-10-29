@@ -1,5 +1,5 @@
 <template>
-  <div class="min-vh-90">
+  <div class="min-vh-80">
     <b-container fluid>
       <b-row class="py-3 bg-primary">
         <b-col class="text-center">
@@ -7,7 +7,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container class="py-5">
+    <b-container class="py-3">
       <section v-if="$fetchState.pending" class="text-center">
         <h3 class="mb-4 text-blue">Recibiendo ofertas...</h3>
         <b-icon icon="filter-circle" font-scale="3" animation="throb" variant="light"></b-icon>
@@ -18,17 +18,19 @@
         <p class="text-center text-black mb-5">
           Tienes los requisitos necesarios para solicitar un préstamo con cualquiera de las siguientes opciones:
         </p>
-        <b-row>
-          <b-col
+        <div class="d-flex flex-wrap justify-content-center">
+          <div
             v-for="(result, index) in results"
             :key="`result-${index}`"
-            sm="12"
-            md="4"
-            class="mb-4"
+            class="flex-grow-1 flex-shrink-1 mb-4 p-2"
+            style="max-width: 33%; flex-basis: 33%;"
           >
-            <OffertComponent :result="result"></OffertComponent>
-          </b-col>
-        </b-row>
+            <OffertComponent
+              :ref="`offertComponent-${index}`"
+              :result="result"
+            ></OffertComponent>
+          </div>
+        </div>
       </section>
     </b-container>
   </div>
@@ -36,7 +38,7 @@
 
 <script>
 export default {
-  layout: 'landing',
+  layout: 'landingFloat',
   data() {
     return {
       results: [],
@@ -53,6 +55,8 @@ export default {
   async fetch() {
     const { data } = await this.$axios.get('https://admin.japiapp.com.mx/api/loands')
     this.results = data
+  },
+  mounted() {
   }
 }
 </script>
