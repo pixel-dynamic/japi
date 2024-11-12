@@ -130,8 +130,16 @@ export default {
     },
   },
   methods: {
+    trackTwitterEvent() {
+      if (typeof window.twq === 'function') {
+        window.twq('event', 'tw-oqlm6-oqlms', {});
+      } else {
+        console.warn('Twitter tracking script not loaded yet.');
+      }
+    },
     fireFacebook(client) {
       this.$fb.track('Lead')
+      this.trackTwitterEvent()
       switch (client) {
         case 'Dineria':
           window.open(
