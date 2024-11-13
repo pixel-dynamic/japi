@@ -76,7 +76,8 @@ export default {
         a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
         twq('config','oqlm6');`,
         type: 'text/javascript',
-        charset: 'utf-8'
+        charset: 'utf-8',
+        body: true,
       }
     ],
     __dangerouslyDisableSanitizers: ['script'],
