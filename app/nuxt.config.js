@@ -47,21 +47,6 @@ export default {
       { name: 'msapplication-TileColor', content: '#000000' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-    // script: [
-    //   {
-    //     src: 'https://cdn.onesignal.com/sdks/OneSignalSDK.js',
-    //     async: '',
-    //   },
-    //   {
-    //     type: 'text/javascript',
-    //     innerHTML: `window.OneSignal = window.OneSignal || [];
-    //     OneSignal.push(function() {
-    //       OneSignal.init({
-    //         appId: "de4b6a5a-6f60-43eb-91de-340e8ac2c208",
-    //       });
-    //     });`,
-    //   },
-    // ],
     script: [
       {
         src:
