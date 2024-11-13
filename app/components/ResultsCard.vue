@@ -132,7 +132,7 @@ export default {
   methods: {
     trackTwitterEvent() {
       if (typeof window.twq === 'function') {
-        window.twq('event', 'tw-oqlm6-oqlms', {});
+        window.twq('event', 'tw-oqt8k-oqt8m', {});
       } else {
         console.warn('Twitter tracking script not loaded yet.');
       }
