@@ -68,7 +68,7 @@ export default {
 }
 
 .loan-offer-logo {
-  max-width: 150px;
+  max-height: 60px;
   margin-bottom: 20px;
 }
 
