@@ -59,7 +59,7 @@ export default {
 .loan-offer-card {
   background: linear-gradient(to bottom, #4a90e2, #2c50c8);
   border-radius: 10px;
-  padding: 20px;
+  padding: 20px 10px;
   color: white;
   display: flex;
   flex-direction: column;
@@ -68,8 +68,8 @@ export default {
 }
 
 .loan-offer-logo {
-  max-height: 60px;
-  margin-bottom: 20px;
+  max-height: 50px;
+  padding: 5px;
 }
 
 .loan-offer-features {
@@ -110,7 +110,7 @@ export default {
   justify-content: center;
   align-items: center;
   background: white;
-  padding: 50px 0;
+  padding: 15px 0;
   border-radius: 10px;
   width: 100%;
 }
