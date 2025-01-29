@@ -18,20 +18,35 @@
         <p class="text-center text-black mb-3">
           Tienes los requisitos necesarios para solicitar un préstamo con cualquiera de las siguientes opciones:
         </p>
-        <p class="text-center text-success font-weight-bold mb-4 offer-count-message">
+        <p class="text-center text-success font-weight-bold mb-4 offer-count-message" style="font-size: 1rem">
           {{ offerCountMessage }}
         </p>
-        <div class="offer-slider" ref="offerSlider">
-          <div
-            v-for="(result, index) in results"
-            :key="`result-${index}`"
-            class="offer-slide"
-          >
-            <OffertComponent
-              :ref="`offertComponent-${index}`"
-              :result="result"
-              @image-loaded="handleImageLoad"
-            ></OffertComponent>
+        <div class="offers-container">
+          <div class="offer-slider" ref="offerSlider">
+            <div
+              v-for="(result, index) in results"
+              :key="`result-${index}`"
+              class="offer-slide"
+              :class="{ 'active': currentSlide === index }"
+            >
+              <OffertComponent
+                :ref="`offertComponent-${index}`"
+                :result="result"
+                @image-loaded="handleImageLoad"
+              ></OffertComponent>
+            </div>
+          </div>
+          <div class="slider-controls" v-if="isMobile">
+            <div class="slider-dots">
+              <button
+                v-for="(_, index) in results"
+                :key="index"
+                class="slider-dot"
+                :class="{ 'active': currentSlide === index }"
+                @click="scrollToSlide(index)"
+                :aria-label="`Ver oferta ${index + 1}`"
+              ></button>
+            </div>
           </div>
         </div>
       </section>
@@ -46,7 +61,11 @@ export default {
     return {
       results: [],
       loadedImages: 0,
-      resizeObserver: null
+      resizeObserver: null,
+      currentSlide: 0,
+      isMobile: false,
+      touchStartX: 0,
+      touchEndX: 0
     }
   },
   computed: {
@@ -68,27 +87,28 @@ export default {
     this.results = data
   },
   mounted() {
+    this.checkMobile()
     this.$nextTick(() => {
       this.initSlider()
       this.setupResizeObserver()
       this.equalizeCardHeights()
-
-      // Agregar listener para cambios de ventana
-      window.addEventListener('resize', this.debouncedEqualize)
-
-      // Intentar igualar alturas después de un tiempo para asegurar que todo esté cargado
-      setTimeout(() => {
-        this.equalizeCardHeights()
-      }, 1000)
+      window.addEventListener('resize', this.handleResize)
     })
   },
   beforeDestroy() {
     if (this.resizeObserver) {
       this.resizeObserver.disconnect()
     }
-    window.removeEventListener('resize', this.debouncedEqualize)
+    window.removeEventListener('resize', this.handleResize)
   },
   methods: {
+    checkMobile() {
+      this.isMobile = window.innerWidth <= 990
+    },
+    handleResize() {
+      this.checkMobile()
+      this.debouncedEqualize()
+    },
     setupResizeObserver() {
       if ('ResizeObserver' in window) {
         this.resizeObserver = new ResizeObserver(this.debouncedEqualize)
@@ -107,43 +127,69 @@ export default {
     debouncedEqualize: debounce(function() {
       this.equalizeCardHeights()
     }, 150),
+    scrollToSlide(index) {
+      const slider = this.$refs.offerSlider
+      if (!slider) return
+
+      const slideWidth = slider.offsetWidth
+      const scrollPosition = index * slideWidth
+
+      slider.scrollTo({
+        left: scrollPosition,
+        behavior: 'smooth'
+      })
+
+      this.currentSlide = index
+    },
+    handleScroll() {
+      const slider = this.$refs.offerSlider
+      if (!slider) return
+
+      const slideWidth = slider.offsetWidth
+      const scrollPosition = slider.scrollLeft
+      const newIndex = Math.round(scrollPosition / slideWidth)
+
+      if (this.currentSlide !== newIndex) {
+        this.currentSlide = newIndex
+      }
+    },
     initSlider() {
       const slider = this.$refs.offerSlider
       if (!slider) return
 
-      let isDown = false
-      let startX
-      let scrollLeft
+      // Observar el scroll para actualizar los dots
+      slider.addEventListener('scroll', this.handleScroll)
 
-      const start = (e) => {
-        isDown = true
-        slider.classList.add('active')
-        startX = e.type.includes('mouse') ? e.pageX : e.touches[0].pageX
-        scrollLeft = slider.scrollLeft
-      }
+      // Eventos táctiles mejorados
+      slider.addEventListener('touchstart', (e) => {
+        this.touchStartX = e.touches[0].clientX
+      }, { passive: true })
 
-      const end = () => {
-        isDown = false
-        slider.classList.remove('active')
-      }
+      slider.addEventListener('touchmove', (e) => {
+        if (!this.touchStartX) return
 
-      const move = (e) => {
-        if (!isDown) return
-        e.preventDefault()
-        const x = e.type.includes('mouse') ? e.pageX : e.touches[0].pageX
-        const walk = (x - startX) * 2
-        slider.scrollLeft = scrollLeft - walk
-      }
+        const currentX = e.touches[0].clientX
+        const diff = this.touchStartX - currentX
 
-      slider.addEventListener('mousedown', start)
-      slider.addEventListener('touchstart', start)
+        // Si el desplazamiento es significativo, prevenir el scroll vertical
+        if (Math.abs(diff) > 5) {
+          e.preventDefault()
+        }
+      }, { passive: false })
 
-      slider.addEventListener('mousemove', move)
-      slider.addEventListener('touchmove', move)
+      slider.addEventListener('touchend', (e) => {
+        const touchEndX = e.changedTouches[0].clientX
+        const diff = this.touchStartX - touchEndX
 
-      slider.addEventListener('mouseleave', end)
-      slider.addEventListener('mouseup', end)
-      slider.addEventListener('touchend', end)
+        // Determinar la dirección del swipe
+        if (Math.abs(diff) > 50) { // umbral mínimo para considerar un swipe
+          const direction = diff > 0 ? 1 : -1
+          const nextIndex = Math.max(0, Math.min(this.currentSlide + direction, this.results.length - 1))
+          this.scrollToSlide(nextIndex)
+        }
+
+        this.touchStartX = null
+      }, { passive: true })
     },
     equalizeCardHeights() {
       this.$nextTick(() => {
@@ -151,17 +197,14 @@ export default {
           const cards = this.$el.querySelectorAll('.loan-offer-card')
           if (!cards.length) return
 
-          // Reset heights
           cards.forEach(card => {
             card.style.height = 'auto'
           })
 
-          // Find the tallest card
           const tallestCard = Array.from(cards).reduce((tallest, card) => {
             return Math.max(tallest, card.offsetHeight)
           }, 0)
 
-          // Set all cards to the height of the tallest card
           if (tallestCard > 0) {
             cards.forEach(card => {
               card.style.height = `${tallestCard}px`
@@ -173,7 +216,6 @@ export default {
   }
 }
 
-// Función debounce para evitar múltiples llamadas
 function debounce(func, wait) {
   let timeout
   return function executedFunction(...args) {
@@ -195,6 +237,37 @@ function debounce(func, wait) {
 .offer-count-message {
   font-size: 1.2em;
   animation: pulse 2s infinite;
+}
+
+.offers-container {
+  position: relative;
+  width: 100%;
+}
+
+.slider-controls {
+  margin-top: 1rem;
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.slider-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ccc;
+  border: none;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+.slider-dot.active {
+  background-color: #2c50c8;
+  transform: scale(1.2);
 }
 
 @keyframes pulse {
@@ -231,6 +304,9 @@ function debounce(func, wait) {
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
     -ms-overflow-style: none;
+    scroll-behavior: smooth;
+    gap: 1rem;
+    padding: 0.5rem;
   }
 
   .offer-slider::-webkit-scrollbar {
@@ -240,7 +316,15 @@ function debounce(func, wait) {
   .offer-slide {
     flex: 0 0 85%;
     scroll-snap-align: center;
-    padding: 0.5rem;
+    scroll-snap-stop: always;
+    transition: transform 0.3s ease;
+    opacity: 0.7;
+    transform: scale(0.95);
+  }
+
+  .offer-slide.active {
+    opacity: 1;
+    transform: scale(1);
   }
 }
 </style>
