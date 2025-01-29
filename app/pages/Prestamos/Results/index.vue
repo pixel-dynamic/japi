@@ -30,6 +30,7 @@
             <OffertComponent
               :ref="`offertComponent-${index}`"
               :result="result"
+              @image-loaded="handleImageLoad"
             ></OffertComponent>
           </div>
         </div>
@@ -44,6 +45,8 @@ export default {
   data() {
     return {
       results: [],
+      loadedImages: 0,
+      resizeObserver: null
     }
   },
   computed: {
@@ -67,10 +70,43 @@ export default {
   mounted() {
     this.$nextTick(() => {
       this.initSlider()
+      this.setupResizeObserver()
       this.equalizeCardHeights()
+
+      // Agregar listener para cambios de ventana
+      window.addEventListener('resize', this.debouncedEqualize)
+
+      // Intentar igualar alturas después de un tiempo para asegurar que todo esté cargado
+      setTimeout(() => {
+        this.equalizeCardHeights()
+      }, 1000)
     })
   },
+  beforeDestroy() {
+    if (this.resizeObserver) {
+      this.resizeObserver.disconnect()
+    }
+    window.removeEventListener('resize', this.debouncedEqualize)
+  },
   methods: {
+    setupResizeObserver() {
+      if ('ResizeObserver' in window) {
+        this.resizeObserver = new ResizeObserver(this.debouncedEqualize)
+        const cards = this.$el.querySelectorAll('.loan-offer-card')
+        cards.forEach(card => {
+          this.resizeObserver.observe(card)
+        })
+      }
+    },
+    handleImageLoad() {
+      this.loadedImages++
+      if (this.loadedImages === this.results.length) {
+        this.equalizeCardHeights()
+      }
+    },
+    debouncedEqualize: debounce(function() {
+      this.equalizeCardHeights()
+    }, 150),
     initSlider() {
       const slider = this.$refs.offerSlider
       if (!slider) return
@@ -111,25 +147,42 @@ export default {
     },
     equalizeCardHeights() {
       this.$nextTick(() => {
-        const cards = this.$el.querySelectorAll('.loan-offer-card')
-        if (cards.length === 0) return
+        requestAnimationFrame(() => {
+          const cards = this.$el.querySelectorAll('.loan-offer-card')
+          if (!cards.length) return
 
-        // Reset heights
-        cards.forEach(card => {
-          card.style.height = 'auto'
-        })
+          // Reset heights
+          cards.forEach(card => {
+            card.style.height = 'auto'
+          })
 
-        // Find the tallest card
-        const tallestCard = Array.from(cards).reduce((tallest, card) => {
-          return card.offsetHeight > tallest ? card.offsetHeight : tallest
-        }, 0)
+          // Find the tallest card
+          const tallestCard = Array.from(cards).reduce((tallest, card) => {
+            return Math.max(tallest, card.offsetHeight)
+          }, 0)
 
-        // Set all cards to the height of the tallest card
-        cards.forEach(card => {
-          card.style.height = `${tallestCard}px`
+          // Set all cards to the height of the tallest card
+          if (tallestCard > 0) {
+            cards.forEach(card => {
+              card.style.height = `${tallestCard}px`
+            })
+          }
         })
       })
     }
+  }
+}
+
+// Función debounce para evitar múltiples llamadas
+function debounce(func, wait) {
+  let timeout
+  return function executedFunction(...args) {
+    const later = () => {
+      clearTimeout(timeout)
+      func.apply(this, args)
+    }
+    clearTimeout(timeout)
+    timeout = setTimeout(later, wait)
   }
 }
 </script>
@@ -185,7 +238,7 @@ export default {
   }
 
   .offer-slide {
-    flex: 0 0 80%;
+    flex: 0 0 85%;
     scroll-snap-align: center;
     padding: 0.5rem;
   }
