@@ -137,6 +137,13 @@ export default {
         console.warn('Twitter tracking script not loaded yet.');
       }
     },
+    trackTikTokEvent() {
+      if (typeof window.ttq === 'function') {
+        window.ttq.track('Contact', {});
+      } else {
+        console.warn('TikTok tracking script not loaded yet.');
+      }
+    },
     fireFacebook(client) {
       this.$fb.track('Lead')
       this.trackTwitterEvent()
