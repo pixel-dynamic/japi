@@ -147,6 +147,7 @@ export default {
     fireFacebook(client) {
       this.$fb.track('Lead')
       this.trackTwitterEvent()
+      this.trackTikTokEvent()
       switch (client) {
         case 'Dineria':
           window.open(
