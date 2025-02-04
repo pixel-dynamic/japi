@@ -459,8 +459,8 @@ a {
 
 .inp-cbx {
   position: absolute;
-  left: 5px;
-  top: 5px;
+  left: 15px;
+  top: 12px;
   cursor: pointer;
 }
 
@@ -900,5 +900,34 @@ a {
 
   .results-card .btn {
     font-size: 0.85rem;
+  }
+}
+
+
+/* mobile styles flow */
+.space-one, .space-two {
+  min-height: 35vh;
+
+  @media (max-width: 768px) {
+    min-height: 25vh;
+  }
+}
+
+
+.button-label{
+  padding: 15px;
+
+  @media (max-width: 768px) {
+    padding: 8px;
+  }
+
+}
+
+.button-label h1{
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+
+  @media (max-width: 768px) {
+    font-size: 10px;
   }
 }

@@ -69,7 +69,10 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['@/assets/css/main.css'],
+  css: [
+    '@/assets/css/main.css',
+    '@/assets/css/tachyons.min.css'
+  ],
 
   serverMiddleware: [
     { path: '/api/element', handler: bodyParser.json() },

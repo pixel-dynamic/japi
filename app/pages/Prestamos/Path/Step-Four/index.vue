@@ -1,13 +1,13 @@
 <template>
   <div>
-    <section class="bg-gradient h40">
+    <section class="bg-gradient space-one">
       <b-container>
         <b-row>
           <b-col></b-col>
         </b-row>
       </b-container>
     </section>
-    <section class="h40 bg-smoke py-5">
+    <section class="space-two bg-smoke py-5">
       <b-container class="mb-5 container-step">
         <b-row class="justify-content-center">
           <b-col sm="10" md="6" class="text-white">
@@ -15,7 +15,7 @@
               <label class="text-white">Paso 4 de 4</label>
             </div>
             <div class="bg-purple-header w-100 p-4 text-white mt-3 mt-sm-0">
-              <p>
+              <p class="f6">
                 Recuerda que sin importar tus respuestas, encontraremos una
                 oferta personalizada para ti. Por favor, responde honestamente.
               </p>

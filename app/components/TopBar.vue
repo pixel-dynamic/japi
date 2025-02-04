@@ -2,7 +2,7 @@
   <div :class="['w-100', 'topbar', { dark }]">
     <b-link to="/">
       <h3 class="text-white">
-        <img width="140" src="../assets/img/logoblanco.png" alt="Japi" />
+        <img class="logo-top-bar" src="../assets/img/logoblanco.png" alt="Japi" />
       </h3>
     </b-link>
   </div>
@@ -19,7 +19,14 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss">
+.logo-top-bar{
+  max-width: 150px;
+
+  @media (max-width: 768px) {
+    max-width: 100px;
+  }
+}
 .topbar {
   position: absolute;
   top: 0;
