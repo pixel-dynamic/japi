@@ -23,7 +23,8 @@
     "nuxt-sweetalert2": "^1.0.0",
     "v-money": "^0.8.1",
     "vue-slick-carousel": "^1.0.6",
-    "vue-the-mask": "^0.11.1"
+    "vue-the-mask": "^0.11.1",
+    "nuxt-tiktok-pixel-module": "^1.1.0"
   },
   "devDependencies": {
     "@nuxtjs/google-analytics": "^2.4.0"

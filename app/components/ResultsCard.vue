@@ -131,11 +131,7 @@ export default {
   },
   methods: {
     trackTwitterEvent() {
-      if (typeof window.twq === 'function') {
-        window.twq('event', 'tw-oqt8k-oqt8m', {});
-      } else {
-        console.warn('Twitter tracking script not loaded yet.');
-      }
+      ttq.instance('CUF8B83C77U7V3T8MD8G').track('ClickButton')
     },
     trackTikTokEvent() {
       if (typeof window.ttq === 'function') {
