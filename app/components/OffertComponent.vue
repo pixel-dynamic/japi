@@ -45,6 +45,7 @@ export default {
     },
     solicitarPrestamo() {
       this.$fb.track('Lead')
+      ttq.instance('CUF8B83C77U7V3T8MD8G').track('ClickButton')
       if (this.result.redirect_link) {
         window.open(this.result.redirect_link, '_blank')
       } else {
