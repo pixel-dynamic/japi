@@ -14,7 +14,7 @@
             <label class="d-sm-block d-none text-white w-100"
               >Paso 2 de 4</label
             >
-            <div class="bg-purple-header w-100 p-3 text-white mt-3 mt-sm-0">
+            <div class="bg-purple-header w-100 p-3 text-white mt-5 mt-sm-0">
               <p class="mb-0 small">
                 Recuerda que sin importar tus respuestas, encontraremos una
                 oferta personalizada para ti. Por favor, responde honestamente.
