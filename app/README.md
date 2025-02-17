@@ -3,6 +3,7 @@
 ## Build Setup
 
 ```bash
+$ nvm use 16
 # install dependencies
 $ npm install
 

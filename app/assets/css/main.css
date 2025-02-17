@@ -858,6 +858,11 @@ a {
   min-height: 270px;
 }
 
+/* Results card */
+.results-card {
+  border-radius: 0 0  15px 15px;
+}
+
 .results-card.border {
   box-shadow: none !important;
 }
