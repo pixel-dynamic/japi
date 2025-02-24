@@ -1,9 +1,11 @@
 <template>
-  <div class="min-vh-80">
+  <div>
     <b-container fluid>
-      <b-row class="py-3 bg-primary">
+      <b-row class="bg-primary">
         <b-col class="text-center">
-          <img src="~/assets/img/logoblanco.png" alt="Japi Logo" height="40" />
+          <div class="logo-results">
+            <img src="~/assets/img/logoblanco.png" alt="Japi Logo" />
+          </div>
         </b-col>
       </b-row>
     </b-container>
@@ -14,8 +16,8 @@
         <p class="font-weight-bold mt-3 text-white">Espera un momento...</p>
       </section>
       <section v-else>
-        <h1 class="text-center mb-4" style="color: #2c50c8">¡Felicidades!</h1>
-        <p class="text-center text-black mb-5">
+        <h1 class="text-center pb3 pb4-m ma0 ma3-m" style="color: #2c50c8">¡Felicidades!</h1>
+        <p class="text-center text-black pb1 pb5-m">
           Tienes los requisitos necesarios para solicitar un préstamo con cualquiera de las siguientes opciones:
         </p>
         <div class="d-flex flex-wrap justify-content-center">
@@ -60,7 +62,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss">
 .bg-primary {
   background: linear-gradient(to bottom, #007bff, #0056b3);
 }
@@ -73,5 +75,22 @@ export default {
     max-width: 100%;
     flex-basis: 100%;
   }
+}
+
+.logo-results{
+  padding: 20px 0;
+  img {
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-results{
+    padding: 10px 0;
+    img {
+      max-width: 100px;
+    }
+  }
+
 }
 </style>
