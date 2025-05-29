@@ -36,7 +36,29 @@ export default {
       required: true
     }
   },
+  mounted() {
+    this.$nextTick(() => {
+      this.adjustCardsHeight();
+    });
+  },
   methods: {
+    adjustCardsHeight() {
+      const cards = document.querySelectorAll('.loan-offer-features');
+      let maxHeight = 0;
+
+      // Encontrar la altura máxima
+      cards.forEach(card => {
+        const height = card.offsetHeight;
+        if (height > maxHeight) {
+          maxHeight = height;
+        }
+      });
+
+      // Aplicar la altura máxima a todas las cards
+      cards.forEach(card => {
+        card.style.height = `${maxHeight}px`;
+      });
+    },
     formatAmount(amount) {
       return parseFloat(amount).toLocaleString('es-MX', {
         minimumFractionDigits: 0,
