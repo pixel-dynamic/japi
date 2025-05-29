@@ -25,15 +25,17 @@
   background: #ffffff;
   border-radius: 18px;
   box-shadow: 0 8px 32px rgba(30, 64, 175, 0.12);
-  padding: 2.5rem 2rem;
+  padding: 4rem 0.75rem;
   max-width: 420px;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2rem 0;
-  max-height: calc(100vh - 4rem);
-  overflow-y: auto;
+  margin: 0.5rem;
+  margin-bottom: 10vh;
+  height: calc(90vh - 1rem);
+  max-height: calc(90vh - 1rem);
+  overflow: hidden;
 }
 
 </style>
