@@ -1,5 +1,8 @@
 <template>
   <div class="hello-world">
+    <div class="timer" v-if="remainingTime <= 9">
+      <span>{{ formatTime(remainingTime) }}</span>
+    </div>
     <div class="wait-message">
       <span>Espera un momento</span>
       <div class="loading-dots">
@@ -45,6 +48,7 @@ export default {
   data() {
     return {
       currentMessageIndex: 0,
+      remainingTime: 0,
       messages: [
         {
           icon: '⏳',
@@ -86,8 +90,23 @@ export default {
     }
   },
   methods: {
+    formatTime(seconds) {
+      return `${seconds}s`;
+    },
+    calculateTotalTime() {
+      return this.messages.reduce((total, msg) => total + msg.duration, 0) / 1000;
+    },
     startMessageRotation() {
-      this.rotateMessage()
+      this.remainingTime = this.calculateTotalTime();
+      this.rotateMessage();
+      this.startTimer();
+    },
+    startTimer() {
+      setInterval(() => {
+        if (this.remainingTime > 0) {
+          this.remainingTime--;
+        }
+      }, 1000);
     },
     rotateMessage() {
       this.timer = setTimeout(() => {
@@ -148,6 +167,19 @@ export default {
   padding: 0;
   margin: 0;
   overflow: hidden;
+
+  .timer {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #4f46e5;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeInDown 0.5s ease-out;
+  }
 
   .wait-message {
     position: absolute;
