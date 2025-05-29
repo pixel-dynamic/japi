@@ -47,7 +47,14 @@ export default {
       this.$fb.track('Lead')
       ttq.instance('CUF8B83C77U7V3T8MD8G').track('ClickButton')
       if (this.result.redirect_link) {
-        window.open(this.result.redirect_link, '_blank')
+        this.$router.push({
+          path: "/prestamos/v2/loading",
+          query: {
+            site: btoa(this.result.redirect_link),
+            company: btoa(this.result.company_name)
+          }
+        })
+        // window.open(this.result.redirect_link, '_blank')
       } else {
         console.log('Solicitud de préstamo enviada para', this.result.company_name)
       }

@@ -109,20 +109,13 @@ export default {
       })
     }
     document.head.appendChild(script)
-    let decoded = 'Prestamista';
-    const ntpric = this.$route.query.ntpric;
-    if (ntpric) {
-      try {
-        decoded = atob(ntpric);
-      } catch (e) {
-        decoded = 'Prestamista';
-      }
-    }
+    const decoded = this.$route.query.company ? atob(this.$route.query.company) : 'Empresa';
+    console.log(decoded)
     const msg = this.messages.find(m =>
       m.text.includes('Fiesta Crédito')
     );
     if (msg) {
-      msg.text = msg.text.replace('Fiesta Crédito', `<span class="highlight">${decoded}</span>`);
+      msg.text = msg.text.replace(/<span class="highlight">Fiesta Crédito<\/span>/, `<span class="highlight">${decoded}</span>`);
     }
     this.startMessageRotation()
   },
