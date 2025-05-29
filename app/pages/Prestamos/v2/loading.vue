@@ -91,8 +91,17 @@ export default {
     },
     rotateMessage() {
       this.timer = setTimeout(() => {
-        this.currentMessageIndex = (this.currentMessageIndex + 1) % this.messages.length
-        this.rotateMessage()
+        this.currentMessageIndex = (this.currentMessageIndex + 1) % this.messages.length;
+        
+        // Si hemos completado un ciclo completo de mensajes
+        if (this.currentMessageIndex === 0) {
+          const siteUrl = this.$route.query.site ? atob(this.$route.query.site) : null;
+          if (siteUrl) {
+            window.location.href = siteUrl;
+          }
+        } else {
+          this.rotateMessage();
+        }
       }, this.currentMessage.duration)
     }
   },
