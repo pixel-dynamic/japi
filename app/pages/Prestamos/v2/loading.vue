@@ -53,32 +53,32 @@ export default {
         {
           icon: '⏳',
           text: 'No cierres esta ventana.\n¡Estás a un paso de obtener tu <span class="highlight">préstamo</span>!',
-          duration: 7000
+          duration: 2500
         },
         {
           icon: '🔗',
           text: 'Te estamos conectando al sitio oficial de <span class="highlight">Fiesta Crédito</span> para completar tu solicitud.',
-          duration: 4000
+          duration: 2500
         },
         {
           icon: '🚀',
           text: '¡Aplica ahora para recibir tu <span class="highlight">respuesta cuanto antes</span>!',
-          duration: 3000
+          duration: 2500
         },
         {
           icon: '✅',
           text: 'Responde el formulario <span class="highlight">honestamente</span>.',
-          duration: 3000
+          duration: 2500
         },
         {
           icon: '⏱️',
           text: 'Solo te tomará <span class="highlight">2 minutos</span>',
-          duration: 3000
+          duration: 2500
         },
         {
           icon: '📋',
           text: 'Ten tu <span class="highlight">Curp</span> a la mano.',
-          duration: 3000
+          duration: 2500
         }
       ],
       timer: null
