@@ -1,15 +1,7 @@
 <template>
   <div class="hello-world">
-    <div class="timer" v-if="remainingTime <= 9">
-      <span>{{ formatTime(remainingTime) }}</span>
-    </div>
-    <div class="wait-message">
-      <span>Espera un momento</span>
-      <div class="loading-dots">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+    <div class="logo-container">
+      <img src="~/assets/img/logoamarillo.png" alt="Japi Logo" />
     </div>
     <div class="lottie-container">
       <div class="lottie-wrapper">
@@ -25,6 +17,19 @@
           <div class="message-text" v-html="currentMessage.text"></div>
         </div>
       </transition>
+    </div>
+    <div class="wait-timer-container">
+      <div class="wait-message">
+        <span>Espera un momento</span>
+        <div class="loading-dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="timer" v-if="remainingTime <= 9">
+        <span>{{ formatTime(remainingTime) }}</span>
+      </div>
     </div>
     <div class="security-badges">
       <div class="security-badge">
@@ -116,7 +121,7 @@ export default {
         if (this.currentMessageIndex === 0) {
           const siteUrl = this.$route.query.site ? atob(this.$route.query.site) : null;
           if (siteUrl) {
-            window.location.href = siteUrl;
+            // window.location.href = siteUrl;
           }
         } else {
           this.rotateMessage();
@@ -168,34 +173,46 @@ export default {
   margin: 0;
   overflow: hidden;
 
-  .timer {
-    position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    font-size: 0.9rem;
-    color: #4f46e5;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    animation: fadeInDown 0.5s ease-out;
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+
+    img {
+      width: 120px;
+      height: auto;
+      object-fit: contain;
+      animation: fadeInDown 0.5s ease-out;
+    }
+  }
+
+  .wait-timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0.5rem 0;
+    width: 90%;
+    max-width: 320px;
   }
 
   .wait-message {
-    position: absolute;
-    top: 1.5rem;
-    left: 50%;
-    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
     background: rgba(255, 255, 255, 0.9);
     padding: 0.5rem 1rem;
     border-radius: 20px;
     font-size: 0.9rem;
     color: #4f46e5;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
     animation: fadeInDown 0.5s ease-out;
+    flex: 1;
 
     .loading-dots {
       display: flex;
@@ -215,6 +232,20 @@ export default {
     }
   }
 
+  .timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    font-size: 0.9rem;
+    color: #4f46e5;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeInDown 0.5s ease-out;
+  }
+
   .lottie-container {
     margin: 0;
     position: relative;
@@ -222,9 +253,9 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 25vh;
-    min-height: 25vh;
-    max-height: 25vh;
+    height: 24vh;
+    min-height: 24vh;
+    max-height: 24vh;
     overflow: hidden;
 
     .lottie-wrapper {
@@ -254,9 +285,9 @@ export default {
     text-align: center;
     margin: 0;
     padding: 0.25rem;
-    height: 30vh;
-    min-height: 30vh;
-    max-height: 30vh;
+    height: 23vh;
+    min-height: 23vh;
+    max-height: 23vh;
     width: 100%;
     overflow: hidden;
   }

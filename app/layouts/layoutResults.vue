@@ -25,7 +25,7 @@
   background: #ffffff;
   border-radius: 18px;
   box-shadow: 0 8px 32px rgba(30, 64, 175, 0.12);
-  padding: 4rem 0.75rem;
+  padding: 2rem 0.75rem;
   max-width: 420px;
   width: 100%;
   display: flex;
