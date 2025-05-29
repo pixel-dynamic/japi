@@ -1,5 +1,8 @@
 <template>
   <div class="loan-offer-card">
+    <div class="loader-overlay" v-if="isAdjusting">
+      <div class="loader"></div>
+    </div>
     <div class="logo-box">
       <img :src="'/logos/'+result.image_path" :alt="result.company_name + ' Logo'" class="loan-offer-logo">
     </div>
@@ -36,6 +39,11 @@ export default {
       required: true
     }
   },
+  data() {
+    return {
+      isAdjusting: true
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       this.adjustCardsHeight();
@@ -43,6 +51,7 @@ export default {
   },
   methods: {
     adjustCardsHeight() {
+      this.isAdjusting = true;
       const cards = document.querySelectorAll('.loan-offer-features');
       let maxHeight = 0;
 
@@ -58,6 +67,11 @@ export default {
       cards.forEach(card => {
         card.style.height = `${maxHeight}px`;
       });
+
+      // Ocultar el loader después de un breve momento
+      setTimeout(() => {
+        this.isAdjusting = false;
+      }, 500);
     },
     formatAmount(amount) {
       return parseFloat(amount).toLocaleString('es-MX', {
@@ -95,6 +109,7 @@ export default {
   flex-direction: column;
   align-items: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
 .loan-offer-logo {
@@ -153,5 +168,33 @@ export default {
 
 .logo-box img{
   margin: 0;
+}
+
+.loader-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  border-radius: 10px;
+}
+
+.loader {
+  width: 30px;
+  height: 30px;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #4a90e2;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 </style>
