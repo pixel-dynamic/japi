@@ -121,7 +121,7 @@ export default {
         if (this.currentMessageIndex === 0) {
           const siteUrl = this.$route.query.site ? atob(this.$route.query.site) : null;
           if (siteUrl) {
-            // window.location.href = siteUrl;
+            window.location.href = siteUrl;
           }
         } else {
           this.rotateMessage();
