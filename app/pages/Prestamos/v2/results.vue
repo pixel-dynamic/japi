@@ -1,5 +1,13 @@
 <template>
   <div class="hello-world">
+    <div class="wait-message">
+      <span>Espera un momento</span>
+      <div class="loading-dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
     <div class="lottie-container">
       <div class="lottie-wrapper">
         <div ref="lottieContainer"></div>
@@ -138,6 +146,40 @@ export default {
   padding: 0;
   margin: 0;
   overflow: hidden;
+
+  .wait-message {
+    position: absolute;
+    top: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #4f46e5;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    animation: fadeInDown 0.5s ease-out;
+
+    .loading-dots {
+      display: flex;
+      gap: 0.2rem;
+      
+      span {
+        width: 4px;
+        height: 4px;
+        background: #4f46e5;
+        border-radius: 50%;
+        animation: loadingDots 1.4s infinite ease-in-out;
+        
+        &:nth-child(1) { animation-delay: 0s; }
+        &:nth-child(2) { animation-delay: 0.2s; }
+        &:nth-child(3) { animation-delay: 0.4s; }
+      }
+    }
+  }
 
   .lottie-container {
     margin: 0;
@@ -281,6 +323,28 @@ export default {
   }
   100% {
     box-shadow: 0 0 0 0 rgba(79, 70, 229, 0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -20px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+@keyframes loadingDots {
+  0%, 80%, 100% { 
+    transform: scale(0.6);
+    opacity: 0.6;
+  }
+  40% { 
+    transform: scale(1);
+    opacity: 1;
   }
 }
 
