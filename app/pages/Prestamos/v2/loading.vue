@@ -186,7 +186,6 @@ export default {
       width: 120px;
       height: auto;
       object-fit: contain;
-      animation: fadeInDown 0.5s ease-out;
     }
   }
 
@@ -211,7 +210,6 @@ export default {
     font-size: 0.9rem;
     color: #4f46e5;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    animation: fadeInDown 0.5s ease-out;
     flex: 1;
 
     .loading-dots {
@@ -243,7 +241,6 @@ export default {
     font-size: 0.9rem;
     color: #4f46e5;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    animation: fadeInDown 0.5s ease-out;
   }
 
   .lottie-container {
