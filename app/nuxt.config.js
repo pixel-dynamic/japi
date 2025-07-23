@@ -36,6 +36,10 @@ export default {
         name: 'facebook-domain-verification',
         content: 'oa2263sc5gqzauevz7klallm981lxs',
       },
+      {
+        name: 'facebook-domain-verification',
+        content: '4ennpzumm9h152znxismnluac7dyc1',
+      },
       { hid: 'og:site_name', name: 'og:site_name', content: 'Japi' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
